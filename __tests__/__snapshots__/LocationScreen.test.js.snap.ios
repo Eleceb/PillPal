@@ -1,0 +1,110 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LocationScreen renders correctly without crashing 1`] = `
+<View
+  style={
+    {
+      "alignItems": "center",
+      "backgroundColor": "#fff",
+      "flex": 1,
+      "justifyContent": "center",
+    }
+  }
+>
+  <RCTSafeAreaView
+    style={
+      {
+        "alignItems": "center",
+        "flex": 1,
+        "justifyContent": "center",
+        "width": "100%",
+      }
+    }
+  >
+    <AIRMap
+      initialRegion={null}
+      onChange={[Function]}
+      onMapReady={[Function]}
+      region={
+        {
+          "latitude": 51.509865,
+          "latitudeDelta": 0.05,
+          "longitude": -0.118092,
+          "longitudeDelta": 0.05,
+        }
+      }
+      showsUserLocation={true}
+      style={
+        {
+          "height": "100%",
+          "width": "100%",
+        }
+      }
+      toolbarEnabled={false}
+    />
+    <View
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": undefined,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "backgroundColor": "#00adf8",
+          "borderRadius": 49,
+          "bottom": 29,
+          "elevation": 5,
+          "height": 98,
+          "justifyContent": "center",
+          "opacity": 1,
+          "position": "absolute",
+          "right": 29,
+          "shadowColor": "#000",
+          "shadowOffset": {
+            "height": 2,
+            "width": 0,
+          },
+          "shadowOpacity": 0.25,
+          "shadowRadius": 4,
+          "width": 98,
+        }
+      }
+    >
+      <Image
+        source={1}
+        style={
+          {
+            "alignSelf": "center",
+            "aspectRatio": 1,
+            "height": 59,
+            "resizeMode": "stretch",
+            "tintColor": "white",
+          }
+        }
+      />
+    </View>
+  </RCTSafeAreaView>
+</View>
+`;

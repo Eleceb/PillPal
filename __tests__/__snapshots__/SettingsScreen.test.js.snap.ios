@@ -1,0 +1,3660 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SettingsScreen /> renders correctly without crashing 1`] = `
+<View
+  style={
+    {
+      "height": "100%",
+    }
+  }
+>
+  <RCTScrollView
+    style={
+      {
+        "height": "100%",
+      }
+    }
+  >
+    <View>
+      <View
+        style={
+          [
+            {
+              "flexDirection": "column",
+            },
+            undefined,
+          ]
+        }
+      >
+        <View
+          style={
+            [
+              {},
+              {
+                "backgroundColor": undefined,
+                "paddingBottom": 0,
+                "paddingTop": 0,
+              },
+            ]
+          }
+        >
+          <View
+            style={
+              [
+                {},
+                {
+                  "backgroundColor": "#FFF",
+                },
+              ]
+            }
+          >
+            <View
+              style={
+                [
+                  {
+                    "height": 0.5,
+                  },
+                  {
+                    "backgroundColor": "#C8C7CC",
+                    "marginLeft": 0,
+                    "marginRight": 0,
+                  },
+                ]
+              }
+            />
+          </View>
+          <View
+            style={
+              [
+                {},
+                false,
+              ]
+            }
+          >
+            <View>
+              <View>
+                <View>
+                  <RCTSafeAreaView
+                    style={
+                      [
+                        {
+                          "backgroundColor": "white",
+                        },
+                        {
+                          "flexGrow": 1,
+                        },
+                      ]
+                    }
+                  >
+                    <View
+                      style={
+                        [
+                          {
+                            "alignItems": "center",
+                            "flexDirection": "row",
+                            "minHeight": 44,
+                            "paddingLeft": 15,
+                            "paddingRight": 20,
+                          },
+                          {
+                            "height": 137,
+                            "width": "100%",
+                          },
+                        ]
+                      }
+                    >
+                      <View
+                        style={
+                          {
+                            "flex": 7.8,
+                            "flexDirection": "row",
+                          }
+                        }
+                      >
+                        <View
+                          style={
+                            [
+                              {
+                                "height": 137,
+                                "justifyContent": "center",
+                              },
+                            ]
+                          }
+                        >
+                          <View
+                            accessibilityState={
+                              {
+                                "busy": undefined,
+                                "checked": undefined,
+                                "disabled": true,
+                                "expanded": undefined,
+                                "selected": undefined,
+                              }
+                            }
+                            accessibilityValue={
+                              {
+                                "max": undefined,
+                                "min": undefined,
+                                "now": undefined,
+                                "text": undefined,
+                              }
+                            }
+                            accessible={true}
+                            collapsable={false}
+                            focusable={true}
+                            onClick={[Function]}
+                            onResponderGrant={[Function]}
+                            onResponderMove={[Function]}
+                            onResponderRelease={[Function]}
+                            onResponderTerminate={[Function]}
+                            onResponderTerminationRequest={[Function]}
+                            onStartShouldSetResponder={[Function]}
+                            style={
+                              {
+                                "alignSelf": "center",
+                                "aspectRatio": 1,
+                                "height": 98,
+                                "marginRight": 20,
+                                "opacity": 1,
+                              }
+                            }
+                          >
+                            <Image
+                              source={1}
+                              style={
+                                {
+                                  "aspectRatio": 1,
+                                  "height": 98,
+                                }
+                              }
+                            />
+                          </View>
+                        </View>
+                        <Text
+                          numberOfLines={1}
+                          style={
+                            {
+                              "alignSelf": "center",
+                              "fontSize": 39,
+                              "width": "73%",
+                            }
+                          }
+                        >
+                          Medicine 1
+                        </Text>
+                      </View>
+                      <View
+                        style={
+                          {
+                            "alignItems": "center",
+                            "flex": 3,
+                            "flexDirection": "row",
+                            "height": 137,
+                            "justifyContent": "space-between",
+                          }
+                        }
+                      >
+                        <View
+                          accessibilityState={
+                            {
+                              "busy": undefined,
+                              "checked": undefined,
+                              "disabled": undefined,
+                              "expanded": undefined,
+                              "selected": undefined,
+                            }
+                          }
+                          accessibilityValue={
+                            {
+                              "max": undefined,
+                              "min": undefined,
+                              "now": undefined,
+                              "text": undefined,
+                            }
+                          }
+                          accessible={true}
+                          collapsable={false}
+                          focusable={true}
+                          onClick={[Function]}
+                          onResponderGrant={[Function]}
+                          onResponderMove={[Function]}
+                          onResponderRelease={[Function]}
+                          onResponderTerminate={[Function]}
+                          onResponderTerminationRequest={[Function]}
+                          onStartShouldSetResponder={[Function]}
+                          style={
+                            {
+                              "alignItems": "center",
+                              "aspectRatio": 1,
+                              "justifyContent": "center",
+                              "opacity": 1,
+                              "width": 69,
+                            }
+                          }
+                        >
+                          <Text />
+                        </View>
+                        <View
+                          accessibilityState={
+                            {
+                              "busy": undefined,
+                              "checked": undefined,
+                              "disabled": undefined,
+                              "expanded": undefined,
+                              "selected": undefined,
+                            }
+                          }
+                          accessibilityValue={
+                            {
+                              "max": undefined,
+                              "min": undefined,
+                              "now": undefined,
+                              "text": undefined,
+                            }
+                          }
+                          accessible={true}
+                          collapsable={false}
+                          focusable={true}
+                          onClick={[Function]}
+                          onResponderGrant={[Function]}
+                          onResponderMove={[Function]}
+                          onResponderRelease={[Function]}
+                          onResponderTerminate={[Function]}
+                          onResponderTerminationRequest={[Function]}
+                          onStartShouldSetResponder={[Function]}
+                          style={
+                            {
+                              "alignItems": "center",
+                              "aspectRatio": 1,
+                              "justifyContent": "center",
+                              "opacity": 1,
+                              "width": 69,
+                            }
+                          }
+                        >
+                          <Text />
+                        </View>
+                        <View
+                          accessibilityState={
+                            {
+                              "busy": undefined,
+                              "checked": undefined,
+                              "disabled": undefined,
+                              "expanded": undefined,
+                              "selected": undefined,
+                            }
+                          }
+                          accessibilityValue={
+                            {
+                              "max": undefined,
+                              "min": undefined,
+                              "now": undefined,
+                              "text": undefined,
+                            }
+                          }
+                          accessible={true}
+                          collapsable={false}
+                          focusable={true}
+                          onClick={[Function]}
+                          onResponderGrant={[Function]}
+                          onResponderMove={[Function]}
+                          onResponderRelease={[Function]}
+                          onResponderTerminate={[Function]}
+                          onResponderTerminationRequest={[Function]}
+                          onStartShouldSetResponder={[Function]}
+                          style={
+                            {
+                              "alignItems": "center",
+                              "aspectRatio": 1,
+                              "justifyContent": "center",
+                              "opacity": 1,
+                              "width": 69,
+                            }
+                          }
+                        >
+                          <Text />
+                        </View>
+                      </View>
+                    </View>
+                  </RCTSafeAreaView>
+                </View>
+                <View
+                  style={
+                    [
+                      {
+                        "flexDirection": "column",
+                      },
+                      undefined,
+                    ]
+                  }
+                >
+                  <View
+                    style={
+                      [
+                        {},
+                        {
+                          "backgroundColor": undefined,
+                          "paddingBottom": 0,
+                          "paddingTop": 0,
+                        },
+                      ]
+                    }
+                  >
+                    <View
+                      style={
+                        [
+                          {},
+                          {
+                            "backgroundColor": "#FFF",
+                          },
+                        ]
+                      }
+                    >
+                      <View
+                        style={
+                          [
+                            {
+                              "height": 0.5,
+                            },
+                            {
+                              "backgroundColor": "#C8C7CC",
+                              "marginLeft": 0,
+                              "marginRight": 0,
+                            },
+                          ]
+                        }
+                      />
+                    </View>
+                    <View
+                      style={
+                        [
+                          {},
+                          false,
+                        ]
+                      }
+                    >
+                      <View>
+                        <View>
+                          <RCTSafeAreaView
+                            style={
+                              [
+                                {
+                                  "backgroundColor": "#FFF",
+                                },
+                                {
+                                  "flexGrow": 1,
+                                },
+                              ]
+                            }
+                          >
+                            <View
+                              style={
+                                [
+                                  {
+                                    "alignItems": "center",
+                                    "flexDirection": "row",
+                                    "minHeight": 44,
+                                    "paddingLeft": 15,
+                                    "paddingRight": 20,
+                                  },
+                                  {
+                                    "alignItems": "center",
+                                    "height": 80,
+                                    "width": "100%",
+                                  },
+                                ]
+                              }
+                            >
+                              <View
+                                style={
+                                  {
+                                    "flexDirection": "row",
+                                  }
+                                }
+                              >
+                                <View
+                                  style={
+                                    {
+                                      "alignItems": "center",
+                                      "flexDirection": "row",
+                                      "justifyContent": "space-between",
+                                      "marginRight": 16,
+                                      "width": 102,
+                                    }
+                                  }
+                                >
+                                  <Text
+                                    style={
+                                      {
+                                        "fontSize": 26,
+                                      }
+                                    }
+                                  >
+                                    Date
+                                  </Text>
+                                  <View
+                                    style={
+                                      {
+                                        "flex": 1,
+                                      }
+                                    }
+                                  />
+                                  <Text
+                                    style={
+                                      {
+                                        "fontSize": 26,
+                                        "textAlign": "right",
+                                      }
+                                    }
+                                  >
+                                    :
+                                  </Text>
+                                </View>
+                                <View
+                                  style={
+                                    {
+                                      "alignSelf": "center",
+                                      "flexDirection": "row",
+                                    }
+                                  }
+                                >
+                                  <Text
+                                    style={
+                                      {
+                                        "alignSelf": "center",
+                                        "fontSize": 26,
+                                      }
+                                    }
+                                  >
+                                    2022/05/05
+                                      
+                                  </Text>
+                                  <Text />
+                                  <Text
+                                    style={
+                                      {
+                                        "alignSelf": "center",
+                                        "fontSize": 26,
+                                      }
+                                    }
+                                  >
+                                      
+                                    2022/05/05
+                                  </Text>
+                                </View>
+                              </View>
+                            </View>
+                          </RCTSafeAreaView>
+                        </View>
+                        <RCTSafeAreaView
+                          style={
+                            [
+                              {},
+                              {
+                                "backgroundColor": "#FFF",
+                              },
+                            ]
+                          }
+                        >
+                          <View
+                            style={
+                              [
+                                {
+                                  "height": 0.5,
+                                },
+                                {
+                                  "backgroundColor": "#C8C7CC",
+                                  "marginLeft": 0,
+                                  "marginRight": 0,
+                                },
+                              ]
+                            }
+                          />
+                        </RCTSafeAreaView>
+                      </View>
+                      <View>
+                        <View>
+                          <RCTSafeAreaView
+                            style={
+                              [
+                                {
+                                  "backgroundColor": "#FFF",
+                                },
+                                {
+                                  "flexGrow": 1,
+                                },
+                              ]
+                            }
+                          >
+                            <View
+                              style={
+                                [
+                                  {
+                                    "alignItems": "center",
+                                    "flexDirection": "row",
+                                    "minHeight": 44,
+                                    "paddingLeft": 15,
+                                    "paddingRight": 20,
+                                  },
+                                  {
+                                    "alignItems": "center",
+                                    "height": 80,
+                                    "width": "100%",
+                                  },
+                                ]
+                              }
+                            >
+                              <View
+                                style={
+                                  {
+                                    "flexDirection": "row",
+                                  }
+                                }
+                              >
+                                <View
+                                  style={
+                                    {
+                                      "alignItems": "center",
+                                      "flexDirection": "row",
+                                      "justifyContent": "space-between",
+                                      "marginRight": 16,
+                                      "width": 102,
+                                    }
+                                  }
+                                >
+                                  <Text
+                                    style={
+                                      {
+                                        "fontSize": 26,
+                                      }
+                                    }
+                                  >
+                                    Repeat
+                                  </Text>
+                                  <View
+                                    style={
+                                      {
+                                        "flex": 1,
+                                      }
+                                    }
+                                  />
+                                  <Text
+                                    style={
+                                      {
+                                        "fontSize": 26,
+                                        "textAlign": "right",
+                                      }
+                                    }
+                                  >
+                                    :
+                                  </Text>
+                                </View>
+                                <Text
+                                  style={
+                                    {
+                                      "alignSelf": "center",
+                                      "fontSize": 26,
+                                    }
+                                  }
+                                >
+                                  Daily
+                                </Text>
+                              </View>
+                            </View>
+                          </RCTSafeAreaView>
+                        </View>
+                        <RCTSafeAreaView
+                          style={
+                            [
+                              {},
+                              {
+                                "backgroundColor": "#FFF",
+                              },
+                            ]
+                          }
+                        >
+                          <View
+                            style={
+                              [
+                                {
+                                  "height": 0.5,
+                                },
+                                {
+                                  "backgroundColor": "#C8C7CC",
+                                  "marginLeft": 0,
+                                  "marginRight": 0,
+                                },
+                              ]
+                            }
+                          />
+                        </RCTSafeAreaView>
+                      </View>
+                      <View>
+                        <RCTSafeAreaView
+                          style={
+                            [
+                              {
+                                "backgroundColor": "#FFF",
+                              },
+                              {
+                                "flexGrow": 1,
+                              },
+                            ]
+                          }
+                        >
+                          <View
+                            style={
+                              [
+                                {
+                                  "alignItems": "center",
+                                  "flexDirection": "row",
+                                  "minHeight": 44,
+                                  "paddingLeft": 15,
+                                  "paddingRight": 20,
+                                },
+                                {
+                                  "alignItems": "center",
+                                  "height": 80,
+                                  "width": "100%",
+                                },
+                              ]
+                            }
+                          >
+                            <View
+                              style={
+                                {
+                                  "flexDirection": "row",
+                                }
+                              }
+                            >
+                              <View
+                                style={
+                                  {
+                                    "alignItems": "center",
+                                    "flexDirection": "row",
+                                    "justifyContent": "space-between",
+                                    "marginRight": 16,
+                                    "width": 102,
+                                  }
+                                }
+                              >
+                                <Text
+                                  style={
+                                    {
+                                      "fontSize": 26,
+                                    }
+                                  }
+                                >
+                                  Time
+                                </Text>
+                                <View
+                                  style={
+                                    {
+                                      "flex": 1,
+                                    }
+                                  }
+                                />
+                                <Text
+                                  style={
+                                    {
+                                      "fontSize": 26,
+                                      "textAlign": "right",
+                                    }
+                                  }
+                                >
+                                  :
+                                </Text>
+                              </View>
+                              <Text
+                                style={
+                                  {
+                                    "alignSelf": "center",
+                                    "fontSize": 26,
+                                  }
+                                }
+                              >
+                                20:00
+                              </Text>
+                            </View>
+                          </View>
+                        </RCTSafeAreaView>
+                      </View>
+                    </View>
+                    <View
+                      style={
+                        [
+                          {},
+                          {
+                            "backgroundColor": "#FFF",
+                          },
+                        ]
+                      }
+                    >
+                      <View
+                        style={
+                          [
+                            {
+                              "height": 0.5,
+                            },
+                            {
+                              "backgroundColor": "#C8C7CC",
+                              "marginLeft": 0,
+                              "marginRight": 0,
+                            },
+                          ]
+                        }
+                      />
+                    </View>
+                  </View>
+                </View>
+              </View>
+              <RCTSafeAreaView
+                style={
+                  [
+                    {},
+                    {
+                      "backgroundColor": "#FFF",
+                    },
+                  ]
+                }
+              >
+                <View
+                  style={
+                    [
+                      {
+                        "height": 0.5,
+                      },
+                      {
+                        "backgroundColor": "#C8C7CC",
+                        "marginLeft": 0,
+                        "marginRight": 0,
+                      },
+                    ]
+                  }
+                />
+              </RCTSafeAreaView>
+            </View>
+            <View>
+              <View>
+                <View>
+                  <RCTSafeAreaView
+                    style={
+                      [
+                        {
+                          "backgroundColor": "white",
+                        },
+                        {
+                          "flexGrow": 1,
+                        },
+                      ]
+                    }
+                  >
+                    <View
+                      style={
+                        [
+                          {
+                            "alignItems": "center",
+                            "flexDirection": "row",
+                            "minHeight": 44,
+                            "paddingLeft": 15,
+                            "paddingRight": 20,
+                          },
+                          {
+                            "height": 137,
+                            "width": "100%",
+                          },
+                        ]
+                      }
+                    >
+                      <View
+                        style={
+                          {
+                            "flex": 7.8,
+                            "flexDirection": "row",
+                          }
+                        }
+                      >
+                        <View
+                          style={
+                            [
+                              {
+                                "height": 137,
+                                "justifyContent": "center",
+                              },
+                            ]
+                          }
+                        >
+                          <View
+                            accessibilityState={
+                              {
+                                "busy": undefined,
+                                "checked": undefined,
+                                "disabled": true,
+                                "expanded": undefined,
+                                "selected": undefined,
+                              }
+                            }
+                            accessibilityValue={
+                              {
+                                "max": undefined,
+                                "min": undefined,
+                                "now": undefined,
+                                "text": undefined,
+                              }
+                            }
+                            accessible={true}
+                            collapsable={false}
+                            focusable={true}
+                            onClick={[Function]}
+                            onResponderGrant={[Function]}
+                            onResponderMove={[Function]}
+                            onResponderRelease={[Function]}
+                            onResponderTerminate={[Function]}
+                            onResponderTerminationRequest={[Function]}
+                            onStartShouldSetResponder={[Function]}
+                            style={
+                              {
+                                "alignSelf": "center",
+                                "aspectRatio": 1,
+                                "height": 98,
+                                "marginRight": 20,
+                                "opacity": 1,
+                              }
+                            }
+                          >
+                            <Image
+                              source={1}
+                              style={
+                                {
+                                  "aspectRatio": 1,
+                                  "height": 98,
+                                }
+                              }
+                            />
+                          </View>
+                        </View>
+                        <Text
+                          numberOfLines={1}
+                          style={
+                            {
+                              "alignSelf": "center",
+                              "fontSize": 39,
+                              "width": "73%",
+                            }
+                          }
+                        >
+                          Medicine 2
+                        </Text>
+                      </View>
+                      <View
+                        style={
+                          {
+                            "alignItems": "center",
+                            "flex": 3,
+                            "flexDirection": "row",
+                            "height": 137,
+                            "justifyContent": "space-between",
+                          }
+                        }
+                      >
+                        <View
+                          accessibilityState={
+                            {
+                              "busy": undefined,
+                              "checked": undefined,
+                              "disabled": undefined,
+                              "expanded": undefined,
+                              "selected": undefined,
+                            }
+                          }
+                          accessibilityValue={
+                            {
+                              "max": undefined,
+                              "min": undefined,
+                              "now": undefined,
+                              "text": undefined,
+                            }
+                          }
+                          accessible={true}
+                          collapsable={false}
+                          focusable={true}
+                          onClick={[Function]}
+                          onResponderGrant={[Function]}
+                          onResponderMove={[Function]}
+                          onResponderRelease={[Function]}
+                          onResponderTerminate={[Function]}
+                          onResponderTerminationRequest={[Function]}
+                          onStartShouldSetResponder={[Function]}
+                          style={
+                            {
+                              "alignItems": "center",
+                              "aspectRatio": 1,
+                              "justifyContent": "center",
+                              "opacity": 1,
+                              "width": 69,
+                            }
+                          }
+                        >
+                          <Text />
+                        </View>
+                        <View
+                          accessibilityState={
+                            {
+                              "busy": undefined,
+                              "checked": undefined,
+                              "disabled": undefined,
+                              "expanded": undefined,
+                              "selected": undefined,
+                            }
+                          }
+                          accessibilityValue={
+                            {
+                              "max": undefined,
+                              "min": undefined,
+                              "now": undefined,
+                              "text": undefined,
+                            }
+                          }
+                          accessible={true}
+                          collapsable={false}
+                          focusable={true}
+                          onClick={[Function]}
+                          onResponderGrant={[Function]}
+                          onResponderMove={[Function]}
+                          onResponderRelease={[Function]}
+                          onResponderTerminate={[Function]}
+                          onResponderTerminationRequest={[Function]}
+                          onStartShouldSetResponder={[Function]}
+                          style={
+                            {
+                              "alignItems": "center",
+                              "aspectRatio": 1,
+                              "justifyContent": "center",
+                              "opacity": 1,
+                              "width": 69,
+                            }
+                          }
+                        >
+                          <Text />
+                        </View>
+                        <View
+                          accessibilityState={
+                            {
+                              "busy": undefined,
+                              "checked": undefined,
+                              "disabled": undefined,
+                              "expanded": undefined,
+                              "selected": undefined,
+                            }
+                          }
+                          accessibilityValue={
+                            {
+                              "max": undefined,
+                              "min": undefined,
+                              "now": undefined,
+                              "text": undefined,
+                            }
+                          }
+                          accessible={true}
+                          collapsable={false}
+                          focusable={true}
+                          onClick={[Function]}
+                          onResponderGrant={[Function]}
+                          onResponderMove={[Function]}
+                          onResponderRelease={[Function]}
+                          onResponderTerminate={[Function]}
+                          onResponderTerminationRequest={[Function]}
+                          onStartShouldSetResponder={[Function]}
+                          style={
+                            {
+                              "alignItems": "center",
+                              "aspectRatio": 1,
+                              "justifyContent": "center",
+                              "opacity": 1,
+                              "width": 69,
+                            }
+                          }
+                        >
+                          <Text />
+                        </View>
+                      </View>
+                    </View>
+                  </RCTSafeAreaView>
+                </View>
+                <View
+                  style={
+                    [
+                      {
+                        "flexDirection": "column",
+                      },
+                      undefined,
+                    ]
+                  }
+                >
+                  <View
+                    style={
+                      [
+                        {},
+                        {
+                          "backgroundColor": undefined,
+                          "paddingBottom": 0,
+                          "paddingTop": 0,
+                        },
+                      ]
+                    }
+                  >
+                    <View
+                      style={
+                        [
+                          {},
+                          {
+                            "backgroundColor": "#FFF",
+                          },
+                        ]
+                      }
+                    >
+                      <View
+                        style={
+                          [
+                            {
+                              "height": 0.5,
+                            },
+                            {
+                              "backgroundColor": "#C8C7CC",
+                              "marginLeft": 0,
+                              "marginRight": 0,
+                            },
+                          ]
+                        }
+                      />
+                    </View>
+                    <View
+                      style={
+                        [
+                          {},
+                          false,
+                        ]
+                      }
+                    >
+                      <View>
+                        <View>
+                          <RCTSafeAreaView
+                            style={
+                              [
+                                {
+                                  "backgroundColor": "#FFF",
+                                },
+                                {
+                                  "flexGrow": 1,
+                                },
+                              ]
+                            }
+                          >
+                            <View
+                              style={
+                                [
+                                  {
+                                    "alignItems": "center",
+                                    "flexDirection": "row",
+                                    "minHeight": 44,
+                                    "paddingLeft": 15,
+                                    "paddingRight": 20,
+                                  },
+                                  {
+                                    "alignItems": "center",
+                                    "height": 80,
+                                    "width": "100%",
+                                  },
+                                ]
+                              }
+                            >
+                              <View
+                                style={
+                                  {
+                                    "flexDirection": "row",
+                                  }
+                                }
+                              >
+                                <View
+                                  style={
+                                    {
+                                      "alignItems": "center",
+                                      "flexDirection": "row",
+                                      "justifyContent": "space-between",
+                                      "marginRight": 16,
+                                      "width": 102,
+                                    }
+                                  }
+                                >
+                                  <Text
+                                    style={
+                                      {
+                                        "fontSize": 26,
+                                      }
+                                    }
+                                  >
+                                    Date
+                                  </Text>
+                                  <View
+                                    style={
+                                      {
+                                        "flex": 1,
+                                      }
+                                    }
+                                  />
+                                  <Text
+                                    style={
+                                      {
+                                        "fontSize": 26,
+                                        "textAlign": "right",
+                                      }
+                                    }
+                                  >
+                                    :
+                                  </Text>
+                                </View>
+                                <View
+                                  style={
+                                    {
+                                      "alignSelf": "center",
+                                      "flexDirection": "row",
+                                    }
+                                  }
+                                >
+                                  <Text
+                                    style={
+                                      {
+                                        "alignSelf": "center",
+                                        "fontSize": 26,
+                                      }
+                                    }
+                                  >
+                                    2022/05/06
+                                      
+                                  </Text>
+                                  <Text />
+                                  <Text
+                                    style={
+                                      {
+                                        "alignSelf": "center",
+                                        "fontSize": 26,
+                                      }
+                                    }
+                                  >
+                                      
+                                    2022/05/06
+                                  </Text>
+                                </View>
+                              </View>
+                            </View>
+                          </RCTSafeAreaView>
+                        </View>
+                        <RCTSafeAreaView
+                          style={
+                            [
+                              {},
+                              {
+                                "backgroundColor": "#FFF",
+                              },
+                            ]
+                          }
+                        >
+                          <View
+                            style={
+                              [
+                                {
+                                  "height": 0.5,
+                                },
+                                {
+                                  "backgroundColor": "#C8C7CC",
+                                  "marginLeft": 0,
+                                  "marginRight": 0,
+                                },
+                              ]
+                            }
+                          />
+                        </RCTSafeAreaView>
+                      </View>
+                      <View>
+                        <View>
+                          <RCTSafeAreaView
+                            style={
+                              [
+                                {
+                                  "backgroundColor": "#FFF",
+                                },
+                                {
+                                  "flexGrow": 1,
+                                },
+                              ]
+                            }
+                          >
+                            <View
+                              style={
+                                [
+                                  {
+                                    "alignItems": "center",
+                                    "flexDirection": "row",
+                                    "minHeight": 44,
+                                    "paddingLeft": 15,
+                                    "paddingRight": 20,
+                                  },
+                                  {
+                                    "alignItems": "center",
+                                    "height": 80,
+                                    "width": "100%",
+                                  },
+                                ]
+                              }
+                            >
+                              <View
+                                style={
+                                  {
+                                    "flexDirection": "row",
+                                  }
+                                }
+                              >
+                                <View
+                                  style={
+                                    {
+                                      "alignItems": "center",
+                                      "flexDirection": "row",
+                                      "justifyContent": "space-between",
+                                      "marginRight": 16,
+                                      "width": 102,
+                                    }
+                                  }
+                                >
+                                  <Text
+                                    style={
+                                      {
+                                        "fontSize": 26,
+                                      }
+                                    }
+                                  >
+                                    Repeat
+                                  </Text>
+                                  <View
+                                    style={
+                                      {
+                                        "flex": 1,
+                                      }
+                                    }
+                                  />
+                                  <Text
+                                    style={
+                                      {
+                                        "fontSize": 26,
+                                        "textAlign": "right",
+                                      }
+                                    }
+                                  >
+                                    :
+                                  </Text>
+                                </View>
+                                <Text
+                                  style={
+                                    {
+                                      "alignSelf": "center",
+                                      "fontSize": 26,
+                                    }
+                                  }
+                                >
+                                  Weekly
+                                </Text>
+                              </View>
+                            </View>
+                          </RCTSafeAreaView>
+                        </View>
+                        <RCTSafeAreaView
+                          style={
+                            [
+                              {},
+                              {
+                                "backgroundColor": "#FFF",
+                              },
+                            ]
+                          }
+                        >
+                          <View
+                            style={
+                              [
+                                {
+                                  "height": 0.5,
+                                },
+                                {
+                                  "backgroundColor": "#C8C7CC",
+                                  "marginLeft": 0,
+                                  "marginRight": 0,
+                                },
+                              ]
+                            }
+                          />
+                        </RCTSafeAreaView>
+                      </View>
+                      <View>
+                        <RCTSafeAreaView
+                          style={
+                            [
+                              {
+                                "backgroundColor": "#FFF",
+                              },
+                              {
+                                "flexGrow": 1,
+                              },
+                            ]
+                          }
+                        >
+                          <View
+                            style={
+                              [
+                                {
+                                  "alignItems": "center",
+                                  "flexDirection": "row",
+                                  "minHeight": 44,
+                                  "paddingLeft": 15,
+                                  "paddingRight": 20,
+                                },
+                                {
+                                  "alignItems": "center",
+                                  "height": 80,
+                                  "width": "100%",
+                                },
+                              ]
+                            }
+                          >
+                            <View
+                              style={
+                                {
+                                  "flexDirection": "row",
+                                }
+                              }
+                            >
+                              <View
+                                style={
+                                  {
+                                    "alignItems": "center",
+                                    "flexDirection": "row",
+                                    "justifyContent": "space-between",
+                                    "marginRight": 16,
+                                    "width": 102,
+                                  }
+                                }
+                              >
+                                <Text
+                                  style={
+                                    {
+                                      "fontSize": 26,
+                                    }
+                                  }
+                                >
+                                  Time
+                                </Text>
+                                <View
+                                  style={
+                                    {
+                                      "flex": 1,
+                                    }
+                                  }
+                                />
+                                <Text
+                                  style={
+                                    {
+                                      "fontSize": 26,
+                                      "textAlign": "right",
+                                    }
+                                  }
+                                >
+                                  :
+                                </Text>
+                              </View>
+                              <Text
+                                style={
+                                  {
+                                    "alignSelf": "center",
+                                    "fontSize": 26,
+                                  }
+                                }
+                              >
+                                20:00
+                              </Text>
+                            </View>
+                          </View>
+                        </RCTSafeAreaView>
+                      </View>
+                    </View>
+                    <View
+                      style={
+                        [
+                          {},
+                          {
+                            "backgroundColor": "#FFF",
+                          },
+                        ]
+                      }
+                    >
+                      <View
+                        style={
+                          [
+                            {
+                              "height": 0.5,
+                            },
+                            {
+                              "backgroundColor": "#C8C7CC",
+                              "marginLeft": 0,
+                              "marginRight": 0,
+                            },
+                          ]
+                        }
+                      />
+                    </View>
+                  </View>
+                </View>
+              </View>
+              <RCTSafeAreaView
+                style={
+                  [
+                    {},
+                    {
+                      "backgroundColor": "#FFF",
+                    },
+                  ]
+                }
+              >
+                <View
+                  style={
+                    [
+                      {
+                        "height": 0.5,
+                      },
+                      {
+                        "backgroundColor": "#C8C7CC",
+                        "marginLeft": 0,
+                        "marginRight": 0,
+                      },
+                    ]
+                  }
+                />
+              </RCTSafeAreaView>
+            </View>
+            <View>
+              <View>
+                <View>
+                  <RCTSafeAreaView
+                    style={
+                      [
+                        {
+                          "backgroundColor": "white",
+                        },
+                        {
+                          "flexGrow": 1,
+                        },
+                      ]
+                    }
+                  >
+                    <View
+                      style={
+                        [
+                          {
+                            "alignItems": "center",
+                            "flexDirection": "row",
+                            "minHeight": 44,
+                            "paddingLeft": 15,
+                            "paddingRight": 20,
+                          },
+                          {
+                            "height": 137,
+                            "width": "100%",
+                          },
+                        ]
+                      }
+                    >
+                      <View
+                        style={
+                          {
+                            "flex": 7.8,
+                            "flexDirection": "row",
+                          }
+                        }
+                      >
+                        <View
+                          style={
+                            [
+                              {
+                                "height": 137,
+                                "justifyContent": "center",
+                              },
+                            ]
+                          }
+                        >
+                          <View
+                            accessibilityState={
+                              {
+                                "busy": undefined,
+                                "checked": undefined,
+                                "disabled": true,
+                                "expanded": undefined,
+                                "selected": undefined,
+                              }
+                            }
+                            accessibilityValue={
+                              {
+                                "max": undefined,
+                                "min": undefined,
+                                "now": undefined,
+                                "text": undefined,
+                              }
+                            }
+                            accessible={true}
+                            collapsable={false}
+                            focusable={true}
+                            onClick={[Function]}
+                            onResponderGrant={[Function]}
+                            onResponderMove={[Function]}
+                            onResponderRelease={[Function]}
+                            onResponderTerminate={[Function]}
+                            onResponderTerminationRequest={[Function]}
+                            onStartShouldSetResponder={[Function]}
+                            style={
+                              {
+                                "alignSelf": "center",
+                                "aspectRatio": 1,
+                                "height": 98,
+                                "marginRight": 20,
+                                "opacity": 1,
+                              }
+                            }
+                          >
+                            <Image
+                              source={1}
+                              style={
+                                {
+                                  "aspectRatio": 1,
+                                  "height": 98,
+                                }
+                              }
+                            />
+                          </View>
+                        </View>
+                        <Text
+                          numberOfLines={1}
+                          style={
+                            {
+                              "alignSelf": "center",
+                              "fontSize": 39,
+                              "width": "73%",
+                            }
+                          }
+                        >
+                          Medicine 3
+                        </Text>
+                      </View>
+                      <View
+                        style={
+                          {
+                            "alignItems": "center",
+                            "flex": 3,
+                            "flexDirection": "row",
+                            "height": 137,
+                            "justifyContent": "space-between",
+                          }
+                        }
+                      >
+                        <View
+                          accessibilityState={
+                            {
+                              "busy": undefined,
+                              "checked": undefined,
+                              "disabled": undefined,
+                              "expanded": undefined,
+                              "selected": undefined,
+                            }
+                          }
+                          accessibilityValue={
+                            {
+                              "max": undefined,
+                              "min": undefined,
+                              "now": undefined,
+                              "text": undefined,
+                            }
+                          }
+                          accessible={true}
+                          collapsable={false}
+                          focusable={true}
+                          onClick={[Function]}
+                          onResponderGrant={[Function]}
+                          onResponderMove={[Function]}
+                          onResponderRelease={[Function]}
+                          onResponderTerminate={[Function]}
+                          onResponderTerminationRequest={[Function]}
+                          onStartShouldSetResponder={[Function]}
+                          style={
+                            {
+                              "alignItems": "center",
+                              "aspectRatio": 1,
+                              "justifyContent": "center",
+                              "opacity": 1,
+                              "width": 69,
+                            }
+                          }
+                        >
+                          <Text />
+                        </View>
+                        <View
+                          accessibilityState={
+                            {
+                              "busy": undefined,
+                              "checked": undefined,
+                              "disabled": undefined,
+                              "expanded": undefined,
+                              "selected": undefined,
+                            }
+                          }
+                          accessibilityValue={
+                            {
+                              "max": undefined,
+                              "min": undefined,
+                              "now": undefined,
+                              "text": undefined,
+                            }
+                          }
+                          accessible={true}
+                          collapsable={false}
+                          focusable={true}
+                          onClick={[Function]}
+                          onResponderGrant={[Function]}
+                          onResponderMove={[Function]}
+                          onResponderRelease={[Function]}
+                          onResponderTerminate={[Function]}
+                          onResponderTerminationRequest={[Function]}
+                          onStartShouldSetResponder={[Function]}
+                          style={
+                            {
+                              "alignItems": "center",
+                              "aspectRatio": 1,
+                              "justifyContent": "center",
+                              "opacity": 1,
+                              "width": 69,
+                            }
+                          }
+                        >
+                          <Text />
+                        </View>
+                        <View
+                          accessibilityState={
+                            {
+                              "busy": undefined,
+                              "checked": undefined,
+                              "disabled": undefined,
+                              "expanded": undefined,
+                              "selected": undefined,
+                            }
+                          }
+                          accessibilityValue={
+                            {
+                              "max": undefined,
+                              "min": undefined,
+                              "now": undefined,
+                              "text": undefined,
+                            }
+                          }
+                          accessible={true}
+                          collapsable={false}
+                          focusable={true}
+                          onClick={[Function]}
+                          onResponderGrant={[Function]}
+                          onResponderMove={[Function]}
+                          onResponderRelease={[Function]}
+                          onResponderTerminate={[Function]}
+                          onResponderTerminationRequest={[Function]}
+                          onStartShouldSetResponder={[Function]}
+                          style={
+                            {
+                              "alignItems": "center",
+                              "aspectRatio": 1,
+                              "justifyContent": "center",
+                              "opacity": 1,
+                              "width": 69,
+                            }
+                          }
+                        >
+                          <Text />
+                        </View>
+                      </View>
+                    </View>
+                  </RCTSafeAreaView>
+                </View>
+                <View
+                  style={
+                    [
+                      {
+                        "flexDirection": "column",
+                      },
+                      undefined,
+                    ]
+                  }
+                >
+                  <View
+                    style={
+                      [
+                        {},
+                        {
+                          "backgroundColor": undefined,
+                          "paddingBottom": 0,
+                          "paddingTop": 0,
+                        },
+                      ]
+                    }
+                  >
+                    <View
+                      style={
+                        [
+                          {},
+                          {
+                            "backgroundColor": "#FFF",
+                          },
+                        ]
+                      }
+                    >
+                      <View
+                        style={
+                          [
+                            {
+                              "height": 0.5,
+                            },
+                            {
+                              "backgroundColor": "#C8C7CC",
+                              "marginLeft": 0,
+                              "marginRight": 0,
+                            },
+                          ]
+                        }
+                      />
+                    </View>
+                    <View
+                      style={
+                        [
+                          {},
+                          false,
+                        ]
+                      }
+                    >
+                      <View>
+                        <View>
+                          <RCTSafeAreaView
+                            style={
+                              [
+                                {
+                                  "backgroundColor": "#FFF",
+                                },
+                                {
+                                  "flexGrow": 1,
+                                },
+                              ]
+                            }
+                          >
+                            <View
+                              style={
+                                [
+                                  {
+                                    "alignItems": "center",
+                                    "flexDirection": "row",
+                                    "minHeight": 44,
+                                    "paddingLeft": 15,
+                                    "paddingRight": 20,
+                                  },
+                                  {
+                                    "alignItems": "center",
+                                    "height": 80,
+                                    "width": "100%",
+                                  },
+                                ]
+                              }
+                            >
+                              <View
+                                style={
+                                  {
+                                    "flexDirection": "row",
+                                  }
+                                }
+                              >
+                                <View
+                                  style={
+                                    {
+                                      "alignItems": "center",
+                                      "flexDirection": "row",
+                                      "justifyContent": "space-between",
+                                      "marginRight": 16,
+                                      "width": 102,
+                                    }
+                                  }
+                                >
+                                  <Text
+                                    style={
+                                      {
+                                        "fontSize": 26,
+                                      }
+                                    }
+                                  >
+                                    Date
+                                  </Text>
+                                  <View
+                                    style={
+                                      {
+                                        "flex": 1,
+                                      }
+                                    }
+                                  />
+                                  <Text
+                                    style={
+                                      {
+                                        "fontSize": 26,
+                                        "textAlign": "right",
+                                      }
+                                    }
+                                  >
+                                    :
+                                  </Text>
+                                </View>
+                                <Text
+                                  style={
+                                    {
+                                      "alignSelf": "center",
+                                      "fontSize": 26,
+                                    }
+                                  }
+                                >
+                                  From 
+                                  2022/05/07
+                                </Text>
+                              </View>
+                            </View>
+                          </RCTSafeAreaView>
+                        </View>
+                        <RCTSafeAreaView
+                          style={
+                            [
+                              {},
+                              {
+                                "backgroundColor": "#FFF",
+                              },
+                            ]
+                          }
+                        >
+                          <View
+                            style={
+                              [
+                                {
+                                  "height": 0.5,
+                                },
+                                {
+                                  "backgroundColor": "#C8C7CC",
+                                  "marginLeft": 0,
+                                  "marginRight": 0,
+                                },
+                              ]
+                            }
+                          />
+                        </RCTSafeAreaView>
+                      </View>
+                      <View>
+                        <View>
+                          <RCTSafeAreaView
+                            style={
+                              [
+                                {
+                                  "backgroundColor": "#FFF",
+                                },
+                                {
+                                  "flexGrow": 1,
+                                },
+                              ]
+                            }
+                          >
+                            <View
+                              style={
+                                [
+                                  {
+                                    "alignItems": "center",
+                                    "flexDirection": "row",
+                                    "minHeight": 44,
+                                    "paddingLeft": 15,
+                                    "paddingRight": 20,
+                                  },
+                                  {
+                                    "alignItems": "center",
+                                    "height": 80,
+                                    "width": "100%",
+                                  },
+                                ]
+                              }
+                            >
+                              <View
+                                style={
+                                  {
+                                    "flexDirection": "row",
+                                  }
+                                }
+                              >
+                                <View
+                                  style={
+                                    {
+                                      "alignItems": "center",
+                                      "flexDirection": "row",
+                                      "justifyContent": "space-between",
+                                      "marginRight": 16,
+                                      "width": 102,
+                                    }
+                                  }
+                                >
+                                  <Text
+                                    style={
+                                      {
+                                        "fontSize": 26,
+                                      }
+                                    }
+                                  >
+                                    Repeat
+                                  </Text>
+                                  <View
+                                    style={
+                                      {
+                                        "flex": 1,
+                                      }
+                                    }
+                                  />
+                                  <Text
+                                    style={
+                                      {
+                                        "fontSize": 26,
+                                        "textAlign": "right",
+                                      }
+                                    }
+                                  >
+                                    :
+                                  </Text>
+                                </View>
+                                <Text
+                                  style={
+                                    {
+                                      "alignSelf": "center",
+                                      "fontSize": 26,
+                                    }
+                                  }
+                                >
+                                  Monthly
+                                </Text>
+                              </View>
+                            </View>
+                          </RCTSafeAreaView>
+                        </View>
+                        <RCTSafeAreaView
+                          style={
+                            [
+                              {},
+                              {
+                                "backgroundColor": "#FFF",
+                              },
+                            ]
+                          }
+                        >
+                          <View
+                            style={
+                              [
+                                {
+                                  "height": 0.5,
+                                },
+                                {
+                                  "backgroundColor": "#C8C7CC",
+                                  "marginLeft": 0,
+                                  "marginRight": 0,
+                                },
+                              ]
+                            }
+                          />
+                        </RCTSafeAreaView>
+                      </View>
+                      <View>
+                        <RCTSafeAreaView
+                          style={
+                            [
+                              {
+                                "backgroundColor": "#FFF",
+                              },
+                              {
+                                "flexGrow": 1,
+                              },
+                            ]
+                          }
+                        >
+                          <View
+                            style={
+                              [
+                                {
+                                  "alignItems": "center",
+                                  "flexDirection": "row",
+                                  "minHeight": 44,
+                                  "paddingLeft": 15,
+                                  "paddingRight": 20,
+                                },
+                                {
+                                  "alignItems": "center",
+                                  "height": 80,
+                                  "width": "100%",
+                                },
+                              ]
+                            }
+                          >
+                            <View
+                              style={
+                                {
+                                  "flexDirection": "row",
+                                }
+                              }
+                            >
+                              <View
+                                style={
+                                  {
+                                    "alignItems": "center",
+                                    "flexDirection": "row",
+                                    "justifyContent": "space-between",
+                                    "marginRight": 16,
+                                    "width": 102,
+                                  }
+                                }
+                              >
+                                <Text
+                                  style={
+                                    {
+                                      "fontSize": 26,
+                                    }
+                                  }
+                                >
+                                  Time
+                                </Text>
+                                <View
+                                  style={
+                                    {
+                                      "flex": 1,
+                                    }
+                                  }
+                                />
+                                <Text
+                                  style={
+                                    {
+                                      "fontSize": 26,
+                                      "textAlign": "right",
+                                    }
+                                  }
+                                >
+                                  :
+                                </Text>
+                              </View>
+                              <Text
+                                style={
+                                  {
+                                    "alignSelf": "center",
+                                    "fontSize": 26,
+                                  }
+                                }
+                              >
+                                20:00
+                              </Text>
+                            </View>
+                          </View>
+                        </RCTSafeAreaView>
+                      </View>
+                    </View>
+                    <View
+                      style={
+                        [
+                          {},
+                          {
+                            "backgroundColor": "#FFF",
+                          },
+                        ]
+                      }
+                    >
+                      <View
+                        style={
+                          [
+                            {
+                              "height": 0.5,
+                            },
+                            {
+                              "backgroundColor": "#C8C7CC",
+                              "marginLeft": 0,
+                              "marginRight": 0,
+                            },
+                          ]
+                        }
+                      />
+                    </View>
+                  </View>
+                </View>
+              </View>
+              <RCTSafeAreaView
+                style={
+                  [
+                    {},
+                    {
+                      "backgroundColor": "#FFF",
+                    },
+                  ]
+                }
+              >
+                <View
+                  style={
+                    [
+                      {
+                        "height": 0.5,
+                      },
+                      {
+                        "backgroundColor": "#C8C7CC",
+                        "marginLeft": 0,
+                        "marginRight": 0,
+                      },
+                    ]
+                  }
+                />
+              </RCTSafeAreaView>
+            </View>
+            <View>
+              <View>
+                <View>
+                  <RCTSafeAreaView
+                    style={
+                      [
+                        {
+                          "backgroundColor": "white",
+                        },
+                        {
+                          "flexGrow": 1,
+                        },
+                      ]
+                    }
+                  >
+                    <View
+                      style={
+                        [
+                          {
+                            "alignItems": "center",
+                            "flexDirection": "row",
+                            "minHeight": 44,
+                            "paddingLeft": 15,
+                            "paddingRight": 20,
+                          },
+                          {
+                            "height": 137,
+                            "width": "100%",
+                          },
+                        ]
+                      }
+                    >
+                      <View
+                        style={
+                          {
+                            "flex": 7.8,
+                            "flexDirection": "row",
+                          }
+                        }
+                      >
+                        <View
+                          style={
+                            [
+                              {
+                                "height": 137,
+                                "justifyContent": "center",
+                              },
+                            ]
+                          }
+                        >
+                          <View
+                            accessibilityState={
+                              {
+                                "busy": undefined,
+                                "checked": undefined,
+                                "disabled": true,
+                                "expanded": undefined,
+                                "selected": undefined,
+                              }
+                            }
+                            accessibilityValue={
+                              {
+                                "max": undefined,
+                                "min": undefined,
+                                "now": undefined,
+                                "text": undefined,
+                              }
+                            }
+                            accessible={true}
+                            collapsable={false}
+                            focusable={true}
+                            onClick={[Function]}
+                            onResponderGrant={[Function]}
+                            onResponderMove={[Function]}
+                            onResponderRelease={[Function]}
+                            onResponderTerminate={[Function]}
+                            onResponderTerminationRequest={[Function]}
+                            onStartShouldSetResponder={[Function]}
+                            style={
+                              {
+                                "alignSelf": "center",
+                                "aspectRatio": 1,
+                                "height": 98,
+                                "marginRight": 20,
+                                "opacity": 1,
+                              }
+                            }
+                          >
+                            <Image
+                              source={1}
+                              style={
+                                {
+                                  "aspectRatio": 1,
+                                  "height": 98,
+                                }
+                              }
+                            />
+                          </View>
+                        </View>
+                        <Text
+                          numberOfLines={1}
+                          style={
+                            {
+                              "alignSelf": "center",
+                              "fontSize": 39,
+                              "width": "73%",
+                            }
+                          }
+                        >
+                          Medicine 4
+                        </Text>
+                      </View>
+                      <View
+                        style={
+                          {
+                            "alignItems": "center",
+                            "flex": 3,
+                            "flexDirection": "row",
+                            "height": 137,
+                            "justifyContent": "space-between",
+                          }
+                        }
+                      >
+                        <View
+                          accessibilityState={
+                            {
+                              "busy": undefined,
+                              "checked": undefined,
+                              "disabled": undefined,
+                              "expanded": undefined,
+                              "selected": undefined,
+                            }
+                          }
+                          accessibilityValue={
+                            {
+                              "max": undefined,
+                              "min": undefined,
+                              "now": undefined,
+                              "text": undefined,
+                            }
+                          }
+                          accessible={true}
+                          collapsable={false}
+                          focusable={true}
+                          onClick={[Function]}
+                          onResponderGrant={[Function]}
+                          onResponderMove={[Function]}
+                          onResponderRelease={[Function]}
+                          onResponderTerminate={[Function]}
+                          onResponderTerminationRequest={[Function]}
+                          onStartShouldSetResponder={[Function]}
+                          style={
+                            {
+                              "alignItems": "center",
+                              "aspectRatio": 1,
+                              "justifyContent": "center",
+                              "opacity": 1,
+                              "width": 69,
+                            }
+                          }
+                        >
+                          <Text />
+                        </View>
+                        <View
+                          accessibilityState={
+                            {
+                              "busy": undefined,
+                              "checked": undefined,
+                              "disabled": undefined,
+                              "expanded": undefined,
+                              "selected": undefined,
+                            }
+                          }
+                          accessibilityValue={
+                            {
+                              "max": undefined,
+                              "min": undefined,
+                              "now": undefined,
+                              "text": undefined,
+                            }
+                          }
+                          accessible={true}
+                          collapsable={false}
+                          focusable={true}
+                          onClick={[Function]}
+                          onResponderGrant={[Function]}
+                          onResponderMove={[Function]}
+                          onResponderRelease={[Function]}
+                          onResponderTerminate={[Function]}
+                          onResponderTerminationRequest={[Function]}
+                          onStartShouldSetResponder={[Function]}
+                          style={
+                            {
+                              "alignItems": "center",
+                              "aspectRatio": 1,
+                              "justifyContent": "center",
+                              "opacity": 1,
+                              "width": 69,
+                            }
+                          }
+                        >
+                          <Text />
+                        </View>
+                        <View
+                          accessibilityState={
+                            {
+                              "busy": undefined,
+                              "checked": undefined,
+                              "disabled": undefined,
+                              "expanded": undefined,
+                              "selected": undefined,
+                            }
+                          }
+                          accessibilityValue={
+                            {
+                              "max": undefined,
+                              "min": undefined,
+                              "now": undefined,
+                              "text": undefined,
+                            }
+                          }
+                          accessible={true}
+                          collapsable={false}
+                          focusable={true}
+                          onClick={[Function]}
+                          onResponderGrant={[Function]}
+                          onResponderMove={[Function]}
+                          onResponderRelease={[Function]}
+                          onResponderTerminate={[Function]}
+                          onResponderTerminationRequest={[Function]}
+                          onStartShouldSetResponder={[Function]}
+                          style={
+                            {
+                              "alignItems": "center",
+                              "aspectRatio": 1,
+                              "justifyContent": "center",
+                              "opacity": 1,
+                              "width": 69,
+                            }
+                          }
+                        >
+                          <Text />
+                        </View>
+                      </View>
+                    </View>
+                  </RCTSafeAreaView>
+                </View>
+                <View
+                  style={
+                    [
+                      {
+                        "flexDirection": "column",
+                      },
+                      undefined,
+                    ]
+                  }
+                >
+                  <View
+                    style={
+                      [
+                        {},
+                        {
+                          "backgroundColor": undefined,
+                          "paddingBottom": 0,
+                          "paddingTop": 0,
+                        },
+                      ]
+                    }
+                  >
+                    <View
+                      style={
+                        [
+                          {},
+                          {
+                            "backgroundColor": "#FFF",
+                          },
+                        ]
+                      }
+                    >
+                      <View
+                        style={
+                          [
+                            {
+                              "height": 0.5,
+                            },
+                            {
+                              "backgroundColor": "#C8C7CC",
+                              "marginLeft": 0,
+                              "marginRight": 0,
+                            },
+                          ]
+                        }
+                      />
+                    </View>
+                    <View
+                      style={
+                        [
+                          {},
+                          false,
+                        ]
+                      }
+                    >
+                      <View>
+                        <View>
+                          <RCTSafeAreaView
+                            style={
+                              [
+                                {
+                                  "backgroundColor": "#FFF",
+                                },
+                                {
+                                  "flexGrow": 1,
+                                },
+                              ]
+                            }
+                          >
+                            <View
+                              style={
+                                [
+                                  {
+                                    "alignItems": "center",
+                                    "flexDirection": "row",
+                                    "minHeight": 44,
+                                    "paddingLeft": 15,
+                                    "paddingRight": 20,
+                                  },
+                                  {
+                                    "alignItems": "center",
+                                    "height": 80,
+                                    "width": "100%",
+                                  },
+                                ]
+                              }
+                            >
+                              <View
+                                style={
+                                  {
+                                    "flexDirection": "row",
+                                  }
+                                }
+                              >
+                                <View
+                                  style={
+                                    {
+                                      "alignItems": "center",
+                                      "flexDirection": "row",
+                                      "justifyContent": "space-between",
+                                      "marginRight": 16,
+                                      "width": 102,
+                                    }
+                                  }
+                                >
+                                  <Text
+                                    style={
+                                      {
+                                        "fontSize": 26,
+                                      }
+                                    }
+                                  >
+                                    Date
+                                  </Text>
+                                  <View
+                                    style={
+                                      {
+                                        "flex": 1,
+                                      }
+                                    }
+                                  />
+                                  <Text
+                                    style={
+                                      {
+                                        "fontSize": 26,
+                                        "textAlign": "right",
+                                      }
+                                    }
+                                  >
+                                    :
+                                  </Text>
+                                </View>
+                                <View
+                                  style={
+                                    {
+                                      "alignSelf": "center",
+                                      "flexDirection": "row",
+                                    }
+                                  }
+                                >
+                                  <Text
+                                    style={
+                                      {
+                                        "alignSelf": "center",
+                                        "fontSize": 26,
+                                      }
+                                    }
+                                  >
+                                    2022/05/08
+                                      
+                                  </Text>
+                                  <Text />
+                                  <Text
+                                    style={
+                                      {
+                                        "alignSelf": "center",
+                                        "fontSize": 26,
+                                      }
+                                    }
+                                  >
+                                      
+                                    2022/05/08
+                                  </Text>
+                                </View>
+                              </View>
+                            </View>
+                          </RCTSafeAreaView>
+                        </View>
+                        <RCTSafeAreaView
+                          style={
+                            [
+                              {},
+                              {
+                                "backgroundColor": "#FFF",
+                              },
+                            ]
+                          }
+                        >
+                          <View
+                            style={
+                              [
+                                {
+                                  "height": 0.5,
+                                },
+                                {
+                                  "backgroundColor": "#C8C7CC",
+                                  "marginLeft": 0,
+                                  "marginRight": 0,
+                                },
+                              ]
+                            }
+                          />
+                        </RCTSafeAreaView>
+                      </View>
+                      <View>
+                        <View>
+                          <RCTSafeAreaView
+                            style={
+                              [
+                                {
+                                  "backgroundColor": "#FFF",
+                                },
+                                {
+                                  "flexGrow": 1,
+                                },
+                              ]
+                            }
+                          >
+                            <View
+                              style={
+                                [
+                                  {
+                                    "alignItems": "center",
+                                    "flexDirection": "row",
+                                    "minHeight": 44,
+                                    "paddingLeft": 15,
+                                    "paddingRight": 20,
+                                  },
+                                  {
+                                    "alignItems": "center",
+                                    "height": 80,
+                                    "width": "100%",
+                                  },
+                                ]
+                              }
+                            >
+                              <View
+                                style={
+                                  {
+                                    "flexDirection": "row",
+                                  }
+                                }
+                              >
+                                <View
+                                  style={
+                                    {
+                                      "alignItems": "center",
+                                      "flexDirection": "row",
+                                      "justifyContent": "space-between",
+                                      "marginRight": 16,
+                                      "width": 102,
+                                    }
+                                  }
+                                >
+                                  <Text
+                                    style={
+                                      {
+                                        "fontSize": 26,
+                                      }
+                                    }
+                                  >
+                                    Repeat
+                                  </Text>
+                                  <View
+                                    style={
+                                      {
+                                        "flex": 1,
+                                      }
+                                    }
+                                  />
+                                  <Text
+                                    style={
+                                      {
+                                        "fontSize": 26,
+                                        "textAlign": "right",
+                                      }
+                                    }
+                                  >
+                                    :
+                                  </Text>
+                                </View>
+                                <Text
+                                  style={
+                                    {
+                                      "alignSelf": "center",
+                                      "fontSize": 26,
+                                    }
+                                  }
+                                >
+                                  Every 1 day
+                                </Text>
+                              </View>
+                            </View>
+                          </RCTSafeAreaView>
+                        </View>
+                        <RCTSafeAreaView
+                          style={
+                            [
+                              {},
+                              {
+                                "backgroundColor": "#FFF",
+                              },
+                            ]
+                          }
+                        >
+                          <View
+                            style={
+                              [
+                                {
+                                  "height": 0.5,
+                                },
+                                {
+                                  "backgroundColor": "#C8C7CC",
+                                  "marginLeft": 0,
+                                  "marginRight": 0,
+                                },
+                              ]
+                            }
+                          />
+                        </RCTSafeAreaView>
+                      </View>
+                      <View>
+                        <RCTSafeAreaView
+                          style={
+                            [
+                              {
+                                "backgroundColor": "#FFF",
+                              },
+                              {
+                                "flexGrow": 1,
+                              },
+                            ]
+                          }
+                        >
+                          <View
+                            style={
+                              [
+                                {
+                                  "alignItems": "center",
+                                  "flexDirection": "row",
+                                  "minHeight": 44,
+                                  "paddingLeft": 15,
+                                  "paddingRight": 20,
+                                },
+                                {
+                                  "alignItems": "center",
+                                  "height": 80,
+                                  "width": "100%",
+                                },
+                              ]
+                            }
+                          >
+                            <View
+                              style={
+                                {
+                                  "flexDirection": "row",
+                                }
+                              }
+                            >
+                              <View
+                                style={
+                                  {
+                                    "alignItems": "center",
+                                    "flexDirection": "row",
+                                    "justifyContent": "space-between",
+                                    "marginRight": 16,
+                                    "width": 102,
+                                  }
+                                }
+                              >
+                                <Text
+                                  style={
+                                    {
+                                      "fontSize": 26,
+                                    }
+                                  }
+                                >
+                                  Time
+                                </Text>
+                                <View
+                                  style={
+                                    {
+                                      "flex": 1,
+                                    }
+                                  }
+                                />
+                                <Text
+                                  style={
+                                    {
+                                      "fontSize": 26,
+                                      "textAlign": "right",
+                                    }
+                                  }
+                                >
+                                  :
+                                </Text>
+                              </View>
+                              <Text
+                                style={
+                                  {
+                                    "alignSelf": "center",
+                                    "fontSize": 26,
+                                  }
+                                }
+                              >
+                                20:00
+                              </Text>
+                            </View>
+                          </View>
+                        </RCTSafeAreaView>
+                      </View>
+                    </View>
+                    <View
+                      style={
+                        [
+                          {},
+                          {
+                            "backgroundColor": "#FFF",
+                          },
+                        ]
+                      }
+                    >
+                      <View
+                        style={
+                          [
+                            {
+                              "height": 0.5,
+                            },
+                            {
+                              "backgroundColor": "#C8C7CC",
+                              "marginLeft": 0,
+                              "marginRight": 0,
+                            },
+                          ]
+                        }
+                      />
+                    </View>
+                  </View>
+                </View>
+              </View>
+              <RCTSafeAreaView
+                style={
+                  [
+                    {},
+                    {
+                      "backgroundColor": "#FFF",
+                    },
+                  ]
+                }
+              >
+                <View
+                  style={
+                    [
+                      {
+                        "height": 0.5,
+                      },
+                      {
+                        "backgroundColor": "#C8C7CC",
+                        "marginLeft": 0,
+                        "marginRight": 0,
+                      },
+                    ]
+                  }
+                />
+              </RCTSafeAreaView>
+            </View>
+            <View>
+              <View>
+                <RCTSafeAreaView
+                  style={
+                    [
+                      {
+                        "backgroundColor": "white",
+                      },
+                      {
+                        "flexGrow": 1,
+                      },
+                    ]
+                  }
+                >
+                  <View
+                    style={
+                      [
+                        {
+                          "alignItems": "center",
+                          "flexDirection": "row",
+                          "minHeight": 44,
+                          "paddingLeft": 15,
+                          "paddingRight": 20,
+                        },
+                        {
+                          "height": 137,
+                          "width": "100%",
+                        },
+                      ]
+                    }
+                  >
+                    <View
+                      style={
+                        {
+                          "flex": 7.8,
+                          "flexDirection": "row",
+                        }
+                      }
+                    >
+                      <View
+                        style={
+                          [
+                            {
+                              "height": 137,
+                              "justifyContent": "center",
+                            },
+                          ]
+                        }
+                      >
+                        <View
+                          accessibilityState={
+                            {
+                              "busy": undefined,
+                              "checked": undefined,
+                              "disabled": true,
+                              "expanded": undefined,
+                              "selected": undefined,
+                            }
+                          }
+                          accessibilityValue={
+                            {
+                              "max": undefined,
+                              "min": undefined,
+                              "now": undefined,
+                              "text": undefined,
+                            }
+                          }
+                          accessible={true}
+                          collapsable={false}
+                          focusable={true}
+                          onClick={[Function]}
+                          onResponderGrant={[Function]}
+                          onResponderMove={[Function]}
+                          onResponderRelease={[Function]}
+                          onResponderTerminate={[Function]}
+                          onResponderTerminationRequest={[Function]}
+                          onStartShouldSetResponder={[Function]}
+                          style={
+                            {
+                              "alignSelf": "center",
+                              "aspectRatio": 1,
+                              "height": 98,
+                              "marginRight": 20,
+                              "opacity": 1,
+                            }
+                          }
+                        >
+                          <Image
+                            source={1}
+                            style={
+                              {
+                                "aspectRatio": 1,
+                                "height": 98,
+                              }
+                            }
+                          />
+                        </View>
+                      </View>
+                      <Text
+                        numberOfLines={1}
+                        style={
+                          {
+                            "alignSelf": "center",
+                            "fontSize": 39,
+                            "width": "73%",
+                          }
+                        }
+                      >
+                        Medicine 5
+                      </Text>
+                    </View>
+                    <View
+                      style={
+                        {
+                          "alignItems": "center",
+                          "flex": 3,
+                          "flexDirection": "row",
+                          "height": 137,
+                          "justifyContent": "space-between",
+                        }
+                      }
+                    >
+                      <View
+                        accessibilityState={
+                          {
+                            "busy": undefined,
+                            "checked": undefined,
+                            "disabled": undefined,
+                            "expanded": undefined,
+                            "selected": undefined,
+                          }
+                        }
+                        accessibilityValue={
+                          {
+                            "max": undefined,
+                            "min": undefined,
+                            "now": undefined,
+                            "text": undefined,
+                          }
+                        }
+                        accessible={true}
+                        collapsable={false}
+                        focusable={true}
+                        onClick={[Function]}
+                        onResponderGrant={[Function]}
+                        onResponderMove={[Function]}
+                        onResponderRelease={[Function]}
+                        onResponderTerminate={[Function]}
+                        onResponderTerminationRequest={[Function]}
+                        onStartShouldSetResponder={[Function]}
+                        style={
+                          {
+                            "alignItems": "center",
+                            "aspectRatio": 1,
+                            "justifyContent": "center",
+                            "opacity": 1,
+                            "width": 69,
+                          }
+                        }
+                      >
+                        <Text />
+                      </View>
+                      <View
+                        accessibilityState={
+                          {
+                            "busy": undefined,
+                            "checked": undefined,
+                            "disabled": undefined,
+                            "expanded": undefined,
+                            "selected": undefined,
+                          }
+                        }
+                        accessibilityValue={
+                          {
+                            "max": undefined,
+                            "min": undefined,
+                            "now": undefined,
+                            "text": undefined,
+                          }
+                        }
+                        accessible={true}
+                        collapsable={false}
+                        focusable={true}
+                        onClick={[Function]}
+                        onResponderGrant={[Function]}
+                        onResponderMove={[Function]}
+                        onResponderRelease={[Function]}
+                        onResponderTerminate={[Function]}
+                        onResponderTerminationRequest={[Function]}
+                        onStartShouldSetResponder={[Function]}
+                        style={
+                          {
+                            "alignItems": "center",
+                            "aspectRatio": 1,
+                            "justifyContent": "center",
+                            "opacity": 1,
+                            "width": 69,
+                          }
+                        }
+                      >
+                        <Text />
+                      </View>
+                      <View
+                        accessibilityState={
+                          {
+                            "busy": undefined,
+                            "checked": undefined,
+                            "disabled": undefined,
+                            "expanded": undefined,
+                            "selected": undefined,
+                          }
+                        }
+                        accessibilityValue={
+                          {
+                            "max": undefined,
+                            "min": undefined,
+                            "now": undefined,
+                            "text": undefined,
+                          }
+                        }
+                        accessible={true}
+                        collapsable={false}
+                        focusable={true}
+                        onClick={[Function]}
+                        onResponderGrant={[Function]}
+                        onResponderMove={[Function]}
+                        onResponderRelease={[Function]}
+                        onResponderTerminate={[Function]}
+                        onResponderTerminationRequest={[Function]}
+                        onStartShouldSetResponder={[Function]}
+                        style={
+                          {
+                            "alignItems": "center",
+                            "aspectRatio": 1,
+                            "justifyContent": "center",
+                            "opacity": 1,
+                            "width": 69,
+                          }
+                        }
+                      >
+                        <Text />
+                      </View>
+                    </View>
+                  </View>
+                </RCTSafeAreaView>
+              </View>
+              <View
+                style={
+                  [
+                    {
+                      "flexDirection": "column",
+                    },
+                    undefined,
+                  ]
+                }
+              >
+                <View
+                  style={
+                    [
+                      {},
+                      {
+                        "backgroundColor": undefined,
+                        "paddingBottom": 0,
+                        "paddingTop": 0,
+                      },
+                    ]
+                  }
+                >
+                  <View
+                    style={
+                      [
+                        {},
+                        {
+                          "backgroundColor": "#FFF",
+                        },
+                      ]
+                    }
+                  >
+                    <View
+                      style={
+                        [
+                          {
+                            "height": 0.5,
+                          },
+                          {
+                            "backgroundColor": "#C8C7CC",
+                            "marginLeft": 0,
+                            "marginRight": 0,
+                          },
+                        ]
+                      }
+                    />
+                  </View>
+                  <View
+                    style={
+                      [
+                        {},
+                        false,
+                      ]
+                    }
+                  >
+                    <View>
+                      <View>
+                        <RCTSafeAreaView
+                          style={
+                            [
+                              {
+                                "backgroundColor": "#FFF",
+                              },
+                              {
+                                "flexGrow": 1,
+                              },
+                            ]
+                          }
+                        >
+                          <View
+                            style={
+                              [
+                                {
+                                  "alignItems": "center",
+                                  "flexDirection": "row",
+                                  "minHeight": 44,
+                                  "paddingLeft": 15,
+                                  "paddingRight": 20,
+                                },
+                                {
+                                  "alignItems": "center",
+                                  "height": 80,
+                                  "width": "100%",
+                                },
+                              ]
+                            }
+                          >
+                            <View
+                              style={
+                                {
+                                  "flexDirection": "row",
+                                }
+                              }
+                            >
+                              <View
+                                style={
+                                  {
+                                    "alignItems": "center",
+                                    "flexDirection": "row",
+                                    "justifyContent": "space-between",
+                                    "marginRight": 16,
+                                    "width": 102,
+                                  }
+                                }
+                              >
+                                <Text
+                                  style={
+                                    {
+                                      "fontSize": 26,
+                                    }
+                                  }
+                                >
+                                  Date
+                                </Text>
+                                <View
+                                  style={
+                                    {
+                                      "flex": 1,
+                                    }
+                                  }
+                                />
+                                <Text
+                                  style={
+                                    {
+                                      "fontSize": 26,
+                                      "textAlign": "right",
+                                    }
+                                  }
+                                >
+                                  :
+                                </Text>
+                              </View>
+                              <Text
+                                style={
+                                  {
+                                    "alignSelf": "center",
+                                    "fontSize": 26,
+                                  }
+                                }
+                              >
+                                From 
+                                2022/05/09
+                              </Text>
+                            </View>
+                          </View>
+                        </RCTSafeAreaView>
+                      </View>
+                      <RCTSafeAreaView
+                        style={
+                          [
+                            {},
+                            {
+                              "backgroundColor": "#FFF",
+                            },
+                          ]
+                        }
+                      >
+                        <View
+                          style={
+                            [
+                              {
+                                "height": 0.5,
+                              },
+                              {
+                                "backgroundColor": "#C8C7CC",
+                                "marginLeft": 0,
+                                "marginRight": 0,
+                              },
+                            ]
+                          }
+                        />
+                      </RCTSafeAreaView>
+                    </View>
+                    <View>
+                      <View>
+                        <RCTSafeAreaView
+                          style={
+                            [
+                              {
+                                "backgroundColor": "#FFF",
+                              },
+                              {
+                                "flexGrow": 1,
+                              },
+                            ]
+                          }
+                        >
+                          <View
+                            style={
+                              [
+                                {
+                                  "alignItems": "center",
+                                  "flexDirection": "row",
+                                  "minHeight": 44,
+                                  "paddingLeft": 15,
+                                  "paddingRight": 20,
+                                },
+                                {
+                                  "alignItems": "center",
+                                  "height": 80,
+                                  "width": "100%",
+                                },
+                              ]
+                            }
+                          >
+                            <View
+                              style={
+                                {
+                                  "flexDirection": "row",
+                                }
+                              }
+                            >
+                              <View
+                                style={
+                                  {
+                                    "alignItems": "center",
+                                    "flexDirection": "row",
+                                    "justifyContent": "space-between",
+                                    "marginRight": 16,
+                                    "width": 102,
+                                  }
+                                }
+                              >
+                                <Text
+                                  style={
+                                    {
+                                      "fontSize": 26,
+                                    }
+                                  }
+                                >
+                                  Repeat
+                                </Text>
+                                <View
+                                  style={
+                                    {
+                                      "flex": 1,
+                                    }
+                                  }
+                                />
+                                <Text
+                                  style={
+                                    {
+                                      "fontSize": 26,
+                                      "textAlign": "right",
+                                    }
+                                  }
+                                >
+                                  :
+                                </Text>
+                              </View>
+                              <Text
+                                style={
+                                  {
+                                    "alignSelf": "center",
+                                    "fontSize": 26,
+                                  }
+                                }
+                              >
+                                Every 3 days
+                              </Text>
+                            </View>
+                          </View>
+                        </RCTSafeAreaView>
+                      </View>
+                      <RCTSafeAreaView
+                        style={
+                          [
+                            {},
+                            {
+                              "backgroundColor": "#FFF",
+                            },
+                          ]
+                        }
+                      >
+                        <View
+                          style={
+                            [
+                              {
+                                "height": 0.5,
+                              },
+                              {
+                                "backgroundColor": "#C8C7CC",
+                                "marginLeft": 0,
+                                "marginRight": 0,
+                              },
+                            ]
+                          }
+                        />
+                      </RCTSafeAreaView>
+                    </View>
+                    <View>
+                      <RCTSafeAreaView
+                        style={
+                          [
+                            {
+                              "backgroundColor": "#FFF",
+                            },
+                            {
+                              "flexGrow": 1,
+                            },
+                          ]
+                        }
+                      >
+                        <View
+                          style={
+                            [
+                              {
+                                "alignItems": "center",
+                                "flexDirection": "row",
+                                "minHeight": 44,
+                                "paddingLeft": 15,
+                                "paddingRight": 20,
+                              },
+                              {
+                                "alignItems": "center",
+                                "height": 80,
+                                "width": "100%",
+                              },
+                            ]
+                          }
+                        >
+                          <View
+                            style={
+                              {
+                                "flexDirection": "row",
+                              }
+                            }
+                          >
+                            <View
+                              style={
+                                {
+                                  "alignItems": "center",
+                                  "flexDirection": "row",
+                                  "justifyContent": "space-between",
+                                  "marginRight": 16,
+                                  "width": 102,
+                                }
+                              }
+                            >
+                              <Text
+                                style={
+                                  {
+                                    "fontSize": 26,
+                                  }
+                                }
+                              >
+                                Time
+                              </Text>
+                              <View
+                                style={
+                                  {
+                                    "flex": 1,
+                                  }
+                                }
+                              />
+                              <Text
+                                style={
+                                  {
+                                    "fontSize": 26,
+                                    "textAlign": "right",
+                                  }
+                                }
+                              >
+                                :
+                              </Text>
+                            </View>
+                            <Text
+                              style={
+                                {
+                                  "alignSelf": "center",
+                                  "fontSize": 26,
+                                }
+                              }
+                            >
+                              20:00
+                            </Text>
+                          </View>
+                        </View>
+                      </RCTSafeAreaView>
+                    </View>
+                  </View>
+                  <View
+                    style={
+                      [
+                        {},
+                        {
+                          "backgroundColor": "#FFF",
+                        },
+                      ]
+                    }
+                  >
+                    <View
+                      style={
+                        [
+                          {
+                            "height": 0.5,
+                          },
+                          {
+                            "backgroundColor": "#C8C7CC",
+                            "marginLeft": 0,
+                            "marginRight": 0,
+                          },
+                        ]
+                      }
+                    />
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+          <View
+            style={
+              [
+                {},
+                {
+                  "backgroundColor": "#FFF",
+                },
+              ]
+            }
+          >
+            <View
+              style={
+                [
+                  {
+                    "height": 0.5,
+                  },
+                  {
+                    "backgroundColor": "#C8C7CC",
+                    "marginLeft": 0,
+                    "marginRight": 0,
+                  },
+                ]
+              }
+            />
+          </View>
+        </View>
+      </View>
+      <View
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": undefined,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "alignContent": "center",
+            "alignSelf": "center",
+            "backgroundColor": "#f44336",
+            "borderRadius": 47,
+            "height": 93,
+            "justifyContent": "center",
+            "marginBottom": 157,
+            "marginTop": 55,
+            "opacity": 1,
+            "width": "69%",
+          }
+        }
+      >
+        <Text
+          style={
+            {
+              "color": "white",
+              "fontSize": 37,
+              "fontWeight": "bold",
+              "textAlign": "center",
+            }
+          }
+        >
+          Delete All
+        </Text>
+      </View>
+    </View>
+  </RCTScrollView>
+  <View
+    style={
+      {
+        "bottom": 0,
+        "padding": 29,
+        "position": "absolute",
+        "right": 0,
+      }
+    }
+  >
+    <View
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": false,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "alignContent": "center",
+          "backgroundColor": "#00adf8",
+          "borderRadius": 49,
+          "height": 98,
+          "justifyContent": "center",
+          "opacity": 1,
+          "width": 98,
+        }
+      }
+    >
+      <Text />
+    </View>
+  </View>
+</View>
+`;

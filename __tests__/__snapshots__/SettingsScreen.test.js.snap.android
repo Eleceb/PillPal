@@ -1,0 +1,3660 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SettingsScreen /> renders correctly without crashing 1`] = `
+<View
+  style={
+    {
+      "height": "100%",
+    }
+  }
+>
+  <RCTScrollView
+    style={
+      {
+        "height": "100%",
+      }
+    }
+  >
+    <View>
+      <View
+        style={
+          [
+            {
+              "flexDirection": "column",
+            },
+            undefined,
+          ]
+        }
+      >
+        <View
+          style={
+            [
+              {},
+              {
+                "backgroundColor": undefined,
+                "paddingBottom": 0,
+                "paddingTop": 0,
+              },
+            ]
+          }
+        >
+          <View
+            style={
+              [
+                {},
+                {
+                  "backgroundColor": "#FFF",
+                },
+              ]
+            }
+          >
+            <View
+              style={
+                [
+                  {
+                    "height": 0.5,
+                  },
+                  {
+                    "backgroundColor": "#C8C7CC",
+                    "marginLeft": 0,
+                    "marginRight": 0,
+                  },
+                ]
+              }
+            />
+          </View>
+          <View
+            style={
+              [
+                {},
+                false,
+              ]
+            }
+          >
+            <View>
+              <View>
+                <View>
+                  <View
+                    style={
+                      [
+                        {
+                          "backgroundColor": "white",
+                        },
+                        {
+                          "flexGrow": 1,
+                        },
+                      ]
+                    }
+                  >
+                    <View
+                      style={
+                        [
+                          {
+                            "alignItems": "center",
+                            "flexDirection": "row",
+                            "minHeight": 44,
+                            "paddingLeft": 15,
+                            "paddingRight": 20,
+                          },
+                          {
+                            "height": 133,
+                            "width": "100%",
+                          },
+                        ]
+                      }
+                    >
+                      <View
+                        style={
+                          {
+                            "flex": 7.8,
+                            "flexDirection": "row",
+                          }
+                        }
+                      >
+                        <View
+                          style={
+                            [
+                              {
+                                "height": 133,
+                                "justifyContent": "center",
+                              },
+                            ]
+                          }
+                        >
+                          <View
+                            accessibilityState={
+                              {
+                                "busy": undefined,
+                                "checked": undefined,
+                                "disabled": true,
+                                "expanded": undefined,
+                                "selected": undefined,
+                              }
+                            }
+                            accessibilityValue={
+                              {
+                                "max": undefined,
+                                "min": undefined,
+                                "now": undefined,
+                                "text": undefined,
+                              }
+                            }
+                            accessible={true}
+                            collapsable={false}
+                            focusable={true}
+                            onClick={[Function]}
+                            onResponderGrant={[Function]}
+                            onResponderMove={[Function]}
+                            onResponderRelease={[Function]}
+                            onResponderTerminate={[Function]}
+                            onResponderTerminationRequest={[Function]}
+                            onStartShouldSetResponder={[Function]}
+                            style={
+                              {
+                                "alignSelf": "center",
+                                "aspectRatio": 1,
+                                "height": 95,
+                                "marginRight": 19,
+                                "opacity": 1,
+                              }
+                            }
+                          >
+                            <Image
+                              source={1}
+                              style={
+                                {
+                                  "aspectRatio": 1,
+                                  "height": 95,
+                                }
+                              }
+                            />
+                          </View>
+                        </View>
+                        <Text
+                          numberOfLines={1}
+                          style={
+                            {
+                              "alignSelf": "center",
+                              "fontSize": 38,
+                              "width": "73%",
+                            }
+                          }
+                        >
+                          Medicine 1
+                        </Text>
+                      </View>
+                      <View
+                        style={
+                          {
+                            "alignItems": "center",
+                            "flex": 3,
+                            "flexDirection": "row",
+                            "height": 133,
+                            "justifyContent": "space-between",
+                          }
+                        }
+                      >
+                        <View
+                          accessibilityState={
+                            {
+                              "busy": undefined,
+                              "checked": undefined,
+                              "disabled": undefined,
+                              "expanded": undefined,
+                              "selected": undefined,
+                            }
+                          }
+                          accessibilityValue={
+                            {
+                              "max": undefined,
+                              "min": undefined,
+                              "now": undefined,
+                              "text": undefined,
+                            }
+                          }
+                          accessible={true}
+                          collapsable={false}
+                          focusable={true}
+                          onClick={[Function]}
+                          onResponderGrant={[Function]}
+                          onResponderMove={[Function]}
+                          onResponderRelease={[Function]}
+                          onResponderTerminate={[Function]}
+                          onResponderTerminationRequest={[Function]}
+                          onStartShouldSetResponder={[Function]}
+                          style={
+                            {
+                              "alignItems": "center",
+                              "aspectRatio": 1,
+                              "justifyContent": "center",
+                              "opacity": 1,
+                              "width": 67,
+                            }
+                          }
+                        >
+                          <Text />
+                        </View>
+                        <View
+                          accessibilityState={
+                            {
+                              "busy": undefined,
+                              "checked": undefined,
+                              "disabled": undefined,
+                              "expanded": undefined,
+                              "selected": undefined,
+                            }
+                          }
+                          accessibilityValue={
+                            {
+                              "max": undefined,
+                              "min": undefined,
+                              "now": undefined,
+                              "text": undefined,
+                            }
+                          }
+                          accessible={true}
+                          collapsable={false}
+                          focusable={true}
+                          onClick={[Function]}
+                          onResponderGrant={[Function]}
+                          onResponderMove={[Function]}
+                          onResponderRelease={[Function]}
+                          onResponderTerminate={[Function]}
+                          onResponderTerminationRequest={[Function]}
+                          onStartShouldSetResponder={[Function]}
+                          style={
+                            {
+                              "alignItems": "center",
+                              "aspectRatio": 1,
+                              "justifyContent": "center",
+                              "opacity": 1,
+                              "width": 67,
+                            }
+                          }
+                        >
+                          <Text />
+                        </View>
+                        <View
+                          accessibilityState={
+                            {
+                              "busy": undefined,
+                              "checked": undefined,
+                              "disabled": undefined,
+                              "expanded": undefined,
+                              "selected": undefined,
+                            }
+                          }
+                          accessibilityValue={
+                            {
+                              "max": undefined,
+                              "min": undefined,
+                              "now": undefined,
+                              "text": undefined,
+                            }
+                          }
+                          accessible={true}
+                          collapsable={false}
+                          focusable={true}
+                          onClick={[Function]}
+                          onResponderGrant={[Function]}
+                          onResponderMove={[Function]}
+                          onResponderRelease={[Function]}
+                          onResponderTerminate={[Function]}
+                          onResponderTerminationRequest={[Function]}
+                          onStartShouldSetResponder={[Function]}
+                          style={
+                            {
+                              "alignItems": "center",
+                              "aspectRatio": 1,
+                              "justifyContent": "center",
+                              "opacity": 1,
+                              "width": 67,
+                            }
+                          }
+                        >
+                          <Text />
+                        </View>
+                      </View>
+                    </View>
+                  </View>
+                </View>
+                <View
+                  style={
+                    [
+                      {
+                        "flexDirection": "column",
+                      },
+                      undefined,
+                    ]
+                  }
+                >
+                  <View
+                    style={
+                      [
+                        {},
+                        {
+                          "backgroundColor": undefined,
+                          "paddingBottom": 0,
+                          "paddingTop": 0,
+                        },
+                      ]
+                    }
+                  >
+                    <View
+                      style={
+                        [
+                          {},
+                          {
+                            "backgroundColor": "#FFF",
+                          },
+                        ]
+                      }
+                    >
+                      <View
+                        style={
+                          [
+                            {
+                              "height": 0.5,
+                            },
+                            {
+                              "backgroundColor": "#C8C7CC",
+                              "marginLeft": 0,
+                              "marginRight": 0,
+                            },
+                          ]
+                        }
+                      />
+                    </View>
+                    <View
+                      style={
+                        [
+                          {},
+                          false,
+                        ]
+                      }
+                    >
+                      <View>
+                        <View>
+                          <View
+                            style={
+                              [
+                                {
+                                  "backgroundColor": "#FFF",
+                                },
+                                {
+                                  "flexGrow": 1,
+                                },
+                              ]
+                            }
+                          >
+                            <View
+                              style={
+                                [
+                                  {
+                                    "alignItems": "center",
+                                    "flexDirection": "row",
+                                    "minHeight": 44,
+                                    "paddingLeft": 15,
+                                    "paddingRight": 20,
+                                  },
+                                  {
+                                    "alignItems": "center",
+                                    "height": 78,
+                                    "width": "100%",
+                                  },
+                                ]
+                              }
+                            >
+                              <View
+                                style={
+                                  {
+                                    "flexDirection": "row",
+                                  }
+                                }
+                              >
+                                <View
+                                  style={
+                                    {
+                                      "alignItems": "center",
+                                      "flexDirection": "row",
+                                      "justifyContent": "space-between",
+                                      "marginRight": 15,
+                                      "width": 99,
+                                    }
+                                  }
+                                >
+                                  <Text
+                                    style={
+                                      {
+                                        "fontSize": 25,
+                                      }
+                                    }
+                                  >
+                                    Date
+                                  </Text>
+                                  <View
+                                    style={
+                                      {
+                                        "flex": 1,
+                                      }
+                                    }
+                                  />
+                                  <Text
+                                    style={
+                                      {
+                                        "fontSize": 25,
+                                        "textAlign": "right",
+                                      }
+                                    }
+                                  >
+                                    :
+                                  </Text>
+                                </View>
+                                <View
+                                  style={
+                                    {
+                                      "alignSelf": "center",
+                                      "flexDirection": "row",
+                                    }
+                                  }
+                                >
+                                  <Text
+                                    style={
+                                      {
+                                        "alignSelf": "center",
+                                        "fontSize": 25,
+                                      }
+                                    }
+                                  >
+                                    2022/05/05
+                                      
+                                  </Text>
+                                  <Text />
+                                  <Text
+                                    style={
+                                      {
+                                        "alignSelf": "center",
+                                        "fontSize": 25,
+                                      }
+                                    }
+                                  >
+                                      
+                                    2022/05/05
+                                  </Text>
+                                </View>
+                              </View>
+                            </View>
+                          </View>
+                        </View>
+                        <View
+                          style={
+                            [
+                              {},
+                              {
+                                "backgroundColor": "#FFF",
+                              },
+                            ]
+                          }
+                        >
+                          <View
+                            style={
+                              [
+                                {
+                                  "height": 0.5,
+                                },
+                                {
+                                  "backgroundColor": "#C8C7CC",
+                                  "marginLeft": 0,
+                                  "marginRight": 0,
+                                },
+                              ]
+                            }
+                          />
+                        </View>
+                      </View>
+                      <View>
+                        <View>
+                          <View
+                            style={
+                              [
+                                {
+                                  "backgroundColor": "#FFF",
+                                },
+                                {
+                                  "flexGrow": 1,
+                                },
+                              ]
+                            }
+                          >
+                            <View
+                              style={
+                                [
+                                  {
+                                    "alignItems": "center",
+                                    "flexDirection": "row",
+                                    "minHeight": 44,
+                                    "paddingLeft": 15,
+                                    "paddingRight": 20,
+                                  },
+                                  {
+                                    "alignItems": "center",
+                                    "height": 78,
+                                    "width": "100%",
+                                  },
+                                ]
+                              }
+                            >
+                              <View
+                                style={
+                                  {
+                                    "flexDirection": "row",
+                                  }
+                                }
+                              >
+                                <View
+                                  style={
+                                    {
+                                      "alignItems": "center",
+                                      "flexDirection": "row",
+                                      "justifyContent": "space-between",
+                                      "marginRight": 15,
+                                      "width": 99,
+                                    }
+                                  }
+                                >
+                                  <Text
+                                    style={
+                                      {
+                                        "fontSize": 25,
+                                      }
+                                    }
+                                  >
+                                    Repeat
+                                  </Text>
+                                  <View
+                                    style={
+                                      {
+                                        "flex": 1,
+                                      }
+                                    }
+                                  />
+                                  <Text
+                                    style={
+                                      {
+                                        "fontSize": 25,
+                                        "textAlign": "right",
+                                      }
+                                    }
+                                  >
+                                    :
+                                  </Text>
+                                </View>
+                                <Text
+                                  style={
+                                    {
+                                      "alignSelf": "center",
+                                      "fontSize": 25,
+                                    }
+                                  }
+                                >
+                                  Daily
+                                </Text>
+                              </View>
+                            </View>
+                          </View>
+                        </View>
+                        <View
+                          style={
+                            [
+                              {},
+                              {
+                                "backgroundColor": "#FFF",
+                              },
+                            ]
+                          }
+                        >
+                          <View
+                            style={
+                              [
+                                {
+                                  "height": 0.5,
+                                },
+                                {
+                                  "backgroundColor": "#C8C7CC",
+                                  "marginLeft": 0,
+                                  "marginRight": 0,
+                                },
+                              ]
+                            }
+                          />
+                        </View>
+                      </View>
+                      <View>
+                        <View
+                          style={
+                            [
+                              {
+                                "backgroundColor": "#FFF",
+                              },
+                              {
+                                "flexGrow": 1,
+                              },
+                            ]
+                          }
+                        >
+                          <View
+                            style={
+                              [
+                                {
+                                  "alignItems": "center",
+                                  "flexDirection": "row",
+                                  "minHeight": 44,
+                                  "paddingLeft": 15,
+                                  "paddingRight": 20,
+                                },
+                                {
+                                  "alignItems": "center",
+                                  "height": 78,
+                                  "width": "100%",
+                                },
+                              ]
+                            }
+                          >
+                            <View
+                              style={
+                                {
+                                  "flexDirection": "row",
+                                }
+                              }
+                            >
+                              <View
+                                style={
+                                  {
+                                    "alignItems": "center",
+                                    "flexDirection": "row",
+                                    "justifyContent": "space-between",
+                                    "marginRight": 15,
+                                    "width": 99,
+                                  }
+                                }
+                              >
+                                <Text
+                                  style={
+                                    {
+                                      "fontSize": 25,
+                                    }
+                                  }
+                                >
+                                  Time
+                                </Text>
+                                <View
+                                  style={
+                                    {
+                                      "flex": 1,
+                                    }
+                                  }
+                                />
+                                <Text
+                                  style={
+                                    {
+                                      "fontSize": 25,
+                                      "textAlign": "right",
+                                    }
+                                  }
+                                >
+                                  :
+                                </Text>
+                              </View>
+                              <Text
+                                style={
+                                  {
+                                    "alignSelf": "center",
+                                    "fontSize": 25,
+                                  }
+                                }
+                              >
+                                20:00
+                              </Text>
+                            </View>
+                          </View>
+                        </View>
+                      </View>
+                    </View>
+                    <View
+                      style={
+                        [
+                          {},
+                          {
+                            "backgroundColor": "#FFF",
+                          },
+                        ]
+                      }
+                    >
+                      <View
+                        style={
+                          [
+                            {
+                              "height": 0.5,
+                            },
+                            {
+                              "backgroundColor": "#C8C7CC",
+                              "marginLeft": 0,
+                              "marginRight": 0,
+                            },
+                          ]
+                        }
+                      />
+                    </View>
+                  </View>
+                </View>
+              </View>
+              <View
+                style={
+                  [
+                    {},
+                    {
+                      "backgroundColor": "#FFF",
+                    },
+                  ]
+                }
+              >
+                <View
+                  style={
+                    [
+                      {
+                        "height": 0.5,
+                      },
+                      {
+                        "backgroundColor": "#C8C7CC",
+                        "marginLeft": 0,
+                        "marginRight": 0,
+                      },
+                    ]
+                  }
+                />
+              </View>
+            </View>
+            <View>
+              <View>
+                <View>
+                  <View
+                    style={
+                      [
+                        {
+                          "backgroundColor": "white",
+                        },
+                        {
+                          "flexGrow": 1,
+                        },
+                      ]
+                    }
+                  >
+                    <View
+                      style={
+                        [
+                          {
+                            "alignItems": "center",
+                            "flexDirection": "row",
+                            "minHeight": 44,
+                            "paddingLeft": 15,
+                            "paddingRight": 20,
+                          },
+                          {
+                            "height": 133,
+                            "width": "100%",
+                          },
+                        ]
+                      }
+                    >
+                      <View
+                        style={
+                          {
+                            "flex": 7.8,
+                            "flexDirection": "row",
+                          }
+                        }
+                      >
+                        <View
+                          style={
+                            [
+                              {
+                                "height": 133,
+                                "justifyContent": "center",
+                              },
+                            ]
+                          }
+                        >
+                          <View
+                            accessibilityState={
+                              {
+                                "busy": undefined,
+                                "checked": undefined,
+                                "disabled": true,
+                                "expanded": undefined,
+                                "selected": undefined,
+                              }
+                            }
+                            accessibilityValue={
+                              {
+                                "max": undefined,
+                                "min": undefined,
+                                "now": undefined,
+                                "text": undefined,
+                              }
+                            }
+                            accessible={true}
+                            collapsable={false}
+                            focusable={true}
+                            onClick={[Function]}
+                            onResponderGrant={[Function]}
+                            onResponderMove={[Function]}
+                            onResponderRelease={[Function]}
+                            onResponderTerminate={[Function]}
+                            onResponderTerminationRequest={[Function]}
+                            onStartShouldSetResponder={[Function]}
+                            style={
+                              {
+                                "alignSelf": "center",
+                                "aspectRatio": 1,
+                                "height": 95,
+                                "marginRight": 19,
+                                "opacity": 1,
+                              }
+                            }
+                          >
+                            <Image
+                              source={1}
+                              style={
+                                {
+                                  "aspectRatio": 1,
+                                  "height": 95,
+                                }
+                              }
+                            />
+                          </View>
+                        </View>
+                        <Text
+                          numberOfLines={1}
+                          style={
+                            {
+                              "alignSelf": "center",
+                              "fontSize": 38,
+                              "width": "73%",
+                            }
+                          }
+                        >
+                          Medicine 2
+                        </Text>
+                      </View>
+                      <View
+                        style={
+                          {
+                            "alignItems": "center",
+                            "flex": 3,
+                            "flexDirection": "row",
+                            "height": 133,
+                            "justifyContent": "space-between",
+                          }
+                        }
+                      >
+                        <View
+                          accessibilityState={
+                            {
+                              "busy": undefined,
+                              "checked": undefined,
+                              "disabled": undefined,
+                              "expanded": undefined,
+                              "selected": undefined,
+                            }
+                          }
+                          accessibilityValue={
+                            {
+                              "max": undefined,
+                              "min": undefined,
+                              "now": undefined,
+                              "text": undefined,
+                            }
+                          }
+                          accessible={true}
+                          collapsable={false}
+                          focusable={true}
+                          onClick={[Function]}
+                          onResponderGrant={[Function]}
+                          onResponderMove={[Function]}
+                          onResponderRelease={[Function]}
+                          onResponderTerminate={[Function]}
+                          onResponderTerminationRequest={[Function]}
+                          onStartShouldSetResponder={[Function]}
+                          style={
+                            {
+                              "alignItems": "center",
+                              "aspectRatio": 1,
+                              "justifyContent": "center",
+                              "opacity": 1,
+                              "width": 67,
+                            }
+                          }
+                        >
+                          <Text />
+                        </View>
+                        <View
+                          accessibilityState={
+                            {
+                              "busy": undefined,
+                              "checked": undefined,
+                              "disabled": undefined,
+                              "expanded": undefined,
+                              "selected": undefined,
+                            }
+                          }
+                          accessibilityValue={
+                            {
+                              "max": undefined,
+                              "min": undefined,
+                              "now": undefined,
+                              "text": undefined,
+                            }
+                          }
+                          accessible={true}
+                          collapsable={false}
+                          focusable={true}
+                          onClick={[Function]}
+                          onResponderGrant={[Function]}
+                          onResponderMove={[Function]}
+                          onResponderRelease={[Function]}
+                          onResponderTerminate={[Function]}
+                          onResponderTerminationRequest={[Function]}
+                          onStartShouldSetResponder={[Function]}
+                          style={
+                            {
+                              "alignItems": "center",
+                              "aspectRatio": 1,
+                              "justifyContent": "center",
+                              "opacity": 1,
+                              "width": 67,
+                            }
+                          }
+                        >
+                          <Text />
+                        </View>
+                        <View
+                          accessibilityState={
+                            {
+                              "busy": undefined,
+                              "checked": undefined,
+                              "disabled": undefined,
+                              "expanded": undefined,
+                              "selected": undefined,
+                            }
+                          }
+                          accessibilityValue={
+                            {
+                              "max": undefined,
+                              "min": undefined,
+                              "now": undefined,
+                              "text": undefined,
+                            }
+                          }
+                          accessible={true}
+                          collapsable={false}
+                          focusable={true}
+                          onClick={[Function]}
+                          onResponderGrant={[Function]}
+                          onResponderMove={[Function]}
+                          onResponderRelease={[Function]}
+                          onResponderTerminate={[Function]}
+                          onResponderTerminationRequest={[Function]}
+                          onStartShouldSetResponder={[Function]}
+                          style={
+                            {
+                              "alignItems": "center",
+                              "aspectRatio": 1,
+                              "justifyContent": "center",
+                              "opacity": 1,
+                              "width": 67,
+                            }
+                          }
+                        >
+                          <Text />
+                        </View>
+                      </View>
+                    </View>
+                  </View>
+                </View>
+                <View
+                  style={
+                    [
+                      {
+                        "flexDirection": "column",
+                      },
+                      undefined,
+                    ]
+                  }
+                >
+                  <View
+                    style={
+                      [
+                        {},
+                        {
+                          "backgroundColor": undefined,
+                          "paddingBottom": 0,
+                          "paddingTop": 0,
+                        },
+                      ]
+                    }
+                  >
+                    <View
+                      style={
+                        [
+                          {},
+                          {
+                            "backgroundColor": "#FFF",
+                          },
+                        ]
+                      }
+                    >
+                      <View
+                        style={
+                          [
+                            {
+                              "height": 0.5,
+                            },
+                            {
+                              "backgroundColor": "#C8C7CC",
+                              "marginLeft": 0,
+                              "marginRight": 0,
+                            },
+                          ]
+                        }
+                      />
+                    </View>
+                    <View
+                      style={
+                        [
+                          {},
+                          false,
+                        ]
+                      }
+                    >
+                      <View>
+                        <View>
+                          <View
+                            style={
+                              [
+                                {
+                                  "backgroundColor": "#FFF",
+                                },
+                                {
+                                  "flexGrow": 1,
+                                },
+                              ]
+                            }
+                          >
+                            <View
+                              style={
+                                [
+                                  {
+                                    "alignItems": "center",
+                                    "flexDirection": "row",
+                                    "minHeight": 44,
+                                    "paddingLeft": 15,
+                                    "paddingRight": 20,
+                                  },
+                                  {
+                                    "alignItems": "center",
+                                    "height": 78,
+                                    "width": "100%",
+                                  },
+                                ]
+                              }
+                            >
+                              <View
+                                style={
+                                  {
+                                    "flexDirection": "row",
+                                  }
+                                }
+                              >
+                                <View
+                                  style={
+                                    {
+                                      "alignItems": "center",
+                                      "flexDirection": "row",
+                                      "justifyContent": "space-between",
+                                      "marginRight": 15,
+                                      "width": 99,
+                                    }
+                                  }
+                                >
+                                  <Text
+                                    style={
+                                      {
+                                        "fontSize": 25,
+                                      }
+                                    }
+                                  >
+                                    Date
+                                  </Text>
+                                  <View
+                                    style={
+                                      {
+                                        "flex": 1,
+                                      }
+                                    }
+                                  />
+                                  <Text
+                                    style={
+                                      {
+                                        "fontSize": 25,
+                                        "textAlign": "right",
+                                      }
+                                    }
+                                  >
+                                    :
+                                  </Text>
+                                </View>
+                                <View
+                                  style={
+                                    {
+                                      "alignSelf": "center",
+                                      "flexDirection": "row",
+                                    }
+                                  }
+                                >
+                                  <Text
+                                    style={
+                                      {
+                                        "alignSelf": "center",
+                                        "fontSize": 25,
+                                      }
+                                    }
+                                  >
+                                    2022/05/06
+                                      
+                                  </Text>
+                                  <Text />
+                                  <Text
+                                    style={
+                                      {
+                                        "alignSelf": "center",
+                                        "fontSize": 25,
+                                      }
+                                    }
+                                  >
+                                      
+                                    2022/05/06
+                                  </Text>
+                                </View>
+                              </View>
+                            </View>
+                          </View>
+                        </View>
+                        <View
+                          style={
+                            [
+                              {},
+                              {
+                                "backgroundColor": "#FFF",
+                              },
+                            ]
+                          }
+                        >
+                          <View
+                            style={
+                              [
+                                {
+                                  "height": 0.5,
+                                },
+                                {
+                                  "backgroundColor": "#C8C7CC",
+                                  "marginLeft": 0,
+                                  "marginRight": 0,
+                                },
+                              ]
+                            }
+                          />
+                        </View>
+                      </View>
+                      <View>
+                        <View>
+                          <View
+                            style={
+                              [
+                                {
+                                  "backgroundColor": "#FFF",
+                                },
+                                {
+                                  "flexGrow": 1,
+                                },
+                              ]
+                            }
+                          >
+                            <View
+                              style={
+                                [
+                                  {
+                                    "alignItems": "center",
+                                    "flexDirection": "row",
+                                    "minHeight": 44,
+                                    "paddingLeft": 15,
+                                    "paddingRight": 20,
+                                  },
+                                  {
+                                    "alignItems": "center",
+                                    "height": 78,
+                                    "width": "100%",
+                                  },
+                                ]
+                              }
+                            >
+                              <View
+                                style={
+                                  {
+                                    "flexDirection": "row",
+                                  }
+                                }
+                              >
+                                <View
+                                  style={
+                                    {
+                                      "alignItems": "center",
+                                      "flexDirection": "row",
+                                      "justifyContent": "space-between",
+                                      "marginRight": 15,
+                                      "width": 99,
+                                    }
+                                  }
+                                >
+                                  <Text
+                                    style={
+                                      {
+                                        "fontSize": 25,
+                                      }
+                                    }
+                                  >
+                                    Repeat
+                                  </Text>
+                                  <View
+                                    style={
+                                      {
+                                        "flex": 1,
+                                      }
+                                    }
+                                  />
+                                  <Text
+                                    style={
+                                      {
+                                        "fontSize": 25,
+                                        "textAlign": "right",
+                                      }
+                                    }
+                                  >
+                                    :
+                                  </Text>
+                                </View>
+                                <Text
+                                  style={
+                                    {
+                                      "alignSelf": "center",
+                                      "fontSize": 25,
+                                    }
+                                  }
+                                >
+                                  Weekly
+                                </Text>
+                              </View>
+                            </View>
+                          </View>
+                        </View>
+                        <View
+                          style={
+                            [
+                              {},
+                              {
+                                "backgroundColor": "#FFF",
+                              },
+                            ]
+                          }
+                        >
+                          <View
+                            style={
+                              [
+                                {
+                                  "height": 0.5,
+                                },
+                                {
+                                  "backgroundColor": "#C8C7CC",
+                                  "marginLeft": 0,
+                                  "marginRight": 0,
+                                },
+                              ]
+                            }
+                          />
+                        </View>
+                      </View>
+                      <View>
+                        <View
+                          style={
+                            [
+                              {
+                                "backgroundColor": "#FFF",
+                              },
+                              {
+                                "flexGrow": 1,
+                              },
+                            ]
+                          }
+                        >
+                          <View
+                            style={
+                              [
+                                {
+                                  "alignItems": "center",
+                                  "flexDirection": "row",
+                                  "minHeight": 44,
+                                  "paddingLeft": 15,
+                                  "paddingRight": 20,
+                                },
+                                {
+                                  "alignItems": "center",
+                                  "height": 78,
+                                  "width": "100%",
+                                },
+                              ]
+                            }
+                          >
+                            <View
+                              style={
+                                {
+                                  "flexDirection": "row",
+                                }
+                              }
+                            >
+                              <View
+                                style={
+                                  {
+                                    "alignItems": "center",
+                                    "flexDirection": "row",
+                                    "justifyContent": "space-between",
+                                    "marginRight": 15,
+                                    "width": 99,
+                                  }
+                                }
+                              >
+                                <Text
+                                  style={
+                                    {
+                                      "fontSize": 25,
+                                    }
+                                  }
+                                >
+                                  Time
+                                </Text>
+                                <View
+                                  style={
+                                    {
+                                      "flex": 1,
+                                    }
+                                  }
+                                />
+                                <Text
+                                  style={
+                                    {
+                                      "fontSize": 25,
+                                      "textAlign": "right",
+                                    }
+                                  }
+                                >
+                                  :
+                                </Text>
+                              </View>
+                              <Text
+                                style={
+                                  {
+                                    "alignSelf": "center",
+                                    "fontSize": 25,
+                                  }
+                                }
+                              >
+                                20:00
+                              </Text>
+                            </View>
+                          </View>
+                        </View>
+                      </View>
+                    </View>
+                    <View
+                      style={
+                        [
+                          {},
+                          {
+                            "backgroundColor": "#FFF",
+                          },
+                        ]
+                      }
+                    >
+                      <View
+                        style={
+                          [
+                            {
+                              "height": 0.5,
+                            },
+                            {
+                              "backgroundColor": "#C8C7CC",
+                              "marginLeft": 0,
+                              "marginRight": 0,
+                            },
+                          ]
+                        }
+                      />
+                    </View>
+                  </View>
+                </View>
+              </View>
+              <View
+                style={
+                  [
+                    {},
+                    {
+                      "backgroundColor": "#FFF",
+                    },
+                  ]
+                }
+              >
+                <View
+                  style={
+                    [
+                      {
+                        "height": 0.5,
+                      },
+                      {
+                        "backgroundColor": "#C8C7CC",
+                        "marginLeft": 0,
+                        "marginRight": 0,
+                      },
+                    ]
+                  }
+                />
+              </View>
+            </View>
+            <View>
+              <View>
+                <View>
+                  <View
+                    style={
+                      [
+                        {
+                          "backgroundColor": "white",
+                        },
+                        {
+                          "flexGrow": 1,
+                        },
+                      ]
+                    }
+                  >
+                    <View
+                      style={
+                        [
+                          {
+                            "alignItems": "center",
+                            "flexDirection": "row",
+                            "minHeight": 44,
+                            "paddingLeft": 15,
+                            "paddingRight": 20,
+                          },
+                          {
+                            "height": 133,
+                            "width": "100%",
+                          },
+                        ]
+                      }
+                    >
+                      <View
+                        style={
+                          {
+                            "flex": 7.8,
+                            "flexDirection": "row",
+                          }
+                        }
+                      >
+                        <View
+                          style={
+                            [
+                              {
+                                "height": 133,
+                                "justifyContent": "center",
+                              },
+                            ]
+                          }
+                        >
+                          <View
+                            accessibilityState={
+                              {
+                                "busy": undefined,
+                                "checked": undefined,
+                                "disabled": true,
+                                "expanded": undefined,
+                                "selected": undefined,
+                              }
+                            }
+                            accessibilityValue={
+                              {
+                                "max": undefined,
+                                "min": undefined,
+                                "now": undefined,
+                                "text": undefined,
+                              }
+                            }
+                            accessible={true}
+                            collapsable={false}
+                            focusable={true}
+                            onClick={[Function]}
+                            onResponderGrant={[Function]}
+                            onResponderMove={[Function]}
+                            onResponderRelease={[Function]}
+                            onResponderTerminate={[Function]}
+                            onResponderTerminationRequest={[Function]}
+                            onStartShouldSetResponder={[Function]}
+                            style={
+                              {
+                                "alignSelf": "center",
+                                "aspectRatio": 1,
+                                "height": 95,
+                                "marginRight": 19,
+                                "opacity": 1,
+                              }
+                            }
+                          >
+                            <Image
+                              source={1}
+                              style={
+                                {
+                                  "aspectRatio": 1,
+                                  "height": 95,
+                                }
+                              }
+                            />
+                          </View>
+                        </View>
+                        <Text
+                          numberOfLines={1}
+                          style={
+                            {
+                              "alignSelf": "center",
+                              "fontSize": 38,
+                              "width": "73%",
+                            }
+                          }
+                        >
+                          Medicine 3
+                        </Text>
+                      </View>
+                      <View
+                        style={
+                          {
+                            "alignItems": "center",
+                            "flex": 3,
+                            "flexDirection": "row",
+                            "height": 133,
+                            "justifyContent": "space-between",
+                          }
+                        }
+                      >
+                        <View
+                          accessibilityState={
+                            {
+                              "busy": undefined,
+                              "checked": undefined,
+                              "disabled": undefined,
+                              "expanded": undefined,
+                              "selected": undefined,
+                            }
+                          }
+                          accessibilityValue={
+                            {
+                              "max": undefined,
+                              "min": undefined,
+                              "now": undefined,
+                              "text": undefined,
+                            }
+                          }
+                          accessible={true}
+                          collapsable={false}
+                          focusable={true}
+                          onClick={[Function]}
+                          onResponderGrant={[Function]}
+                          onResponderMove={[Function]}
+                          onResponderRelease={[Function]}
+                          onResponderTerminate={[Function]}
+                          onResponderTerminationRequest={[Function]}
+                          onStartShouldSetResponder={[Function]}
+                          style={
+                            {
+                              "alignItems": "center",
+                              "aspectRatio": 1,
+                              "justifyContent": "center",
+                              "opacity": 1,
+                              "width": 67,
+                            }
+                          }
+                        >
+                          <Text />
+                        </View>
+                        <View
+                          accessibilityState={
+                            {
+                              "busy": undefined,
+                              "checked": undefined,
+                              "disabled": undefined,
+                              "expanded": undefined,
+                              "selected": undefined,
+                            }
+                          }
+                          accessibilityValue={
+                            {
+                              "max": undefined,
+                              "min": undefined,
+                              "now": undefined,
+                              "text": undefined,
+                            }
+                          }
+                          accessible={true}
+                          collapsable={false}
+                          focusable={true}
+                          onClick={[Function]}
+                          onResponderGrant={[Function]}
+                          onResponderMove={[Function]}
+                          onResponderRelease={[Function]}
+                          onResponderTerminate={[Function]}
+                          onResponderTerminationRequest={[Function]}
+                          onStartShouldSetResponder={[Function]}
+                          style={
+                            {
+                              "alignItems": "center",
+                              "aspectRatio": 1,
+                              "justifyContent": "center",
+                              "opacity": 1,
+                              "width": 67,
+                            }
+                          }
+                        >
+                          <Text />
+                        </View>
+                        <View
+                          accessibilityState={
+                            {
+                              "busy": undefined,
+                              "checked": undefined,
+                              "disabled": undefined,
+                              "expanded": undefined,
+                              "selected": undefined,
+                            }
+                          }
+                          accessibilityValue={
+                            {
+                              "max": undefined,
+                              "min": undefined,
+                              "now": undefined,
+                              "text": undefined,
+                            }
+                          }
+                          accessible={true}
+                          collapsable={false}
+                          focusable={true}
+                          onClick={[Function]}
+                          onResponderGrant={[Function]}
+                          onResponderMove={[Function]}
+                          onResponderRelease={[Function]}
+                          onResponderTerminate={[Function]}
+                          onResponderTerminationRequest={[Function]}
+                          onStartShouldSetResponder={[Function]}
+                          style={
+                            {
+                              "alignItems": "center",
+                              "aspectRatio": 1,
+                              "justifyContent": "center",
+                              "opacity": 1,
+                              "width": 67,
+                            }
+                          }
+                        >
+                          <Text />
+                        </View>
+                      </View>
+                    </View>
+                  </View>
+                </View>
+                <View
+                  style={
+                    [
+                      {
+                        "flexDirection": "column",
+                      },
+                      undefined,
+                    ]
+                  }
+                >
+                  <View
+                    style={
+                      [
+                        {},
+                        {
+                          "backgroundColor": undefined,
+                          "paddingBottom": 0,
+                          "paddingTop": 0,
+                        },
+                      ]
+                    }
+                  >
+                    <View
+                      style={
+                        [
+                          {},
+                          {
+                            "backgroundColor": "#FFF",
+                          },
+                        ]
+                      }
+                    >
+                      <View
+                        style={
+                          [
+                            {
+                              "height": 0.5,
+                            },
+                            {
+                              "backgroundColor": "#C8C7CC",
+                              "marginLeft": 0,
+                              "marginRight": 0,
+                            },
+                          ]
+                        }
+                      />
+                    </View>
+                    <View
+                      style={
+                        [
+                          {},
+                          false,
+                        ]
+                      }
+                    >
+                      <View>
+                        <View>
+                          <View
+                            style={
+                              [
+                                {
+                                  "backgroundColor": "#FFF",
+                                },
+                                {
+                                  "flexGrow": 1,
+                                },
+                              ]
+                            }
+                          >
+                            <View
+                              style={
+                                [
+                                  {
+                                    "alignItems": "center",
+                                    "flexDirection": "row",
+                                    "minHeight": 44,
+                                    "paddingLeft": 15,
+                                    "paddingRight": 20,
+                                  },
+                                  {
+                                    "alignItems": "center",
+                                    "height": 78,
+                                    "width": "100%",
+                                  },
+                                ]
+                              }
+                            >
+                              <View
+                                style={
+                                  {
+                                    "flexDirection": "row",
+                                  }
+                                }
+                              >
+                                <View
+                                  style={
+                                    {
+                                      "alignItems": "center",
+                                      "flexDirection": "row",
+                                      "justifyContent": "space-between",
+                                      "marginRight": 15,
+                                      "width": 99,
+                                    }
+                                  }
+                                >
+                                  <Text
+                                    style={
+                                      {
+                                        "fontSize": 25,
+                                      }
+                                    }
+                                  >
+                                    Date
+                                  </Text>
+                                  <View
+                                    style={
+                                      {
+                                        "flex": 1,
+                                      }
+                                    }
+                                  />
+                                  <Text
+                                    style={
+                                      {
+                                        "fontSize": 25,
+                                        "textAlign": "right",
+                                      }
+                                    }
+                                  >
+                                    :
+                                  </Text>
+                                </View>
+                                <Text
+                                  style={
+                                    {
+                                      "alignSelf": "center",
+                                      "fontSize": 25,
+                                    }
+                                  }
+                                >
+                                  From 
+                                  2022/05/07
+                                </Text>
+                              </View>
+                            </View>
+                          </View>
+                        </View>
+                        <View
+                          style={
+                            [
+                              {},
+                              {
+                                "backgroundColor": "#FFF",
+                              },
+                            ]
+                          }
+                        >
+                          <View
+                            style={
+                              [
+                                {
+                                  "height": 0.5,
+                                },
+                                {
+                                  "backgroundColor": "#C8C7CC",
+                                  "marginLeft": 0,
+                                  "marginRight": 0,
+                                },
+                              ]
+                            }
+                          />
+                        </View>
+                      </View>
+                      <View>
+                        <View>
+                          <View
+                            style={
+                              [
+                                {
+                                  "backgroundColor": "#FFF",
+                                },
+                                {
+                                  "flexGrow": 1,
+                                },
+                              ]
+                            }
+                          >
+                            <View
+                              style={
+                                [
+                                  {
+                                    "alignItems": "center",
+                                    "flexDirection": "row",
+                                    "minHeight": 44,
+                                    "paddingLeft": 15,
+                                    "paddingRight": 20,
+                                  },
+                                  {
+                                    "alignItems": "center",
+                                    "height": 78,
+                                    "width": "100%",
+                                  },
+                                ]
+                              }
+                            >
+                              <View
+                                style={
+                                  {
+                                    "flexDirection": "row",
+                                  }
+                                }
+                              >
+                                <View
+                                  style={
+                                    {
+                                      "alignItems": "center",
+                                      "flexDirection": "row",
+                                      "justifyContent": "space-between",
+                                      "marginRight": 15,
+                                      "width": 99,
+                                    }
+                                  }
+                                >
+                                  <Text
+                                    style={
+                                      {
+                                        "fontSize": 25,
+                                      }
+                                    }
+                                  >
+                                    Repeat
+                                  </Text>
+                                  <View
+                                    style={
+                                      {
+                                        "flex": 1,
+                                      }
+                                    }
+                                  />
+                                  <Text
+                                    style={
+                                      {
+                                        "fontSize": 25,
+                                        "textAlign": "right",
+                                      }
+                                    }
+                                  >
+                                    :
+                                  </Text>
+                                </View>
+                                <Text
+                                  style={
+                                    {
+                                      "alignSelf": "center",
+                                      "fontSize": 25,
+                                    }
+                                  }
+                                >
+                                  Monthly
+                                </Text>
+                              </View>
+                            </View>
+                          </View>
+                        </View>
+                        <View
+                          style={
+                            [
+                              {},
+                              {
+                                "backgroundColor": "#FFF",
+                              },
+                            ]
+                          }
+                        >
+                          <View
+                            style={
+                              [
+                                {
+                                  "height": 0.5,
+                                },
+                                {
+                                  "backgroundColor": "#C8C7CC",
+                                  "marginLeft": 0,
+                                  "marginRight": 0,
+                                },
+                              ]
+                            }
+                          />
+                        </View>
+                      </View>
+                      <View>
+                        <View
+                          style={
+                            [
+                              {
+                                "backgroundColor": "#FFF",
+                              },
+                              {
+                                "flexGrow": 1,
+                              },
+                            ]
+                          }
+                        >
+                          <View
+                            style={
+                              [
+                                {
+                                  "alignItems": "center",
+                                  "flexDirection": "row",
+                                  "minHeight": 44,
+                                  "paddingLeft": 15,
+                                  "paddingRight": 20,
+                                },
+                                {
+                                  "alignItems": "center",
+                                  "height": 78,
+                                  "width": "100%",
+                                },
+                              ]
+                            }
+                          >
+                            <View
+                              style={
+                                {
+                                  "flexDirection": "row",
+                                }
+                              }
+                            >
+                              <View
+                                style={
+                                  {
+                                    "alignItems": "center",
+                                    "flexDirection": "row",
+                                    "justifyContent": "space-between",
+                                    "marginRight": 15,
+                                    "width": 99,
+                                  }
+                                }
+                              >
+                                <Text
+                                  style={
+                                    {
+                                      "fontSize": 25,
+                                    }
+                                  }
+                                >
+                                  Time
+                                </Text>
+                                <View
+                                  style={
+                                    {
+                                      "flex": 1,
+                                    }
+                                  }
+                                />
+                                <Text
+                                  style={
+                                    {
+                                      "fontSize": 25,
+                                      "textAlign": "right",
+                                    }
+                                  }
+                                >
+                                  :
+                                </Text>
+                              </View>
+                              <Text
+                                style={
+                                  {
+                                    "alignSelf": "center",
+                                    "fontSize": 25,
+                                  }
+                                }
+                              >
+                                20:00
+                              </Text>
+                            </View>
+                          </View>
+                        </View>
+                      </View>
+                    </View>
+                    <View
+                      style={
+                        [
+                          {},
+                          {
+                            "backgroundColor": "#FFF",
+                          },
+                        ]
+                      }
+                    >
+                      <View
+                        style={
+                          [
+                            {
+                              "height": 0.5,
+                            },
+                            {
+                              "backgroundColor": "#C8C7CC",
+                              "marginLeft": 0,
+                              "marginRight": 0,
+                            },
+                          ]
+                        }
+                      />
+                    </View>
+                  </View>
+                </View>
+              </View>
+              <View
+                style={
+                  [
+                    {},
+                    {
+                      "backgroundColor": "#FFF",
+                    },
+                  ]
+                }
+              >
+                <View
+                  style={
+                    [
+                      {
+                        "height": 0.5,
+                      },
+                      {
+                        "backgroundColor": "#C8C7CC",
+                        "marginLeft": 0,
+                        "marginRight": 0,
+                      },
+                    ]
+                  }
+                />
+              </View>
+            </View>
+            <View>
+              <View>
+                <View>
+                  <View
+                    style={
+                      [
+                        {
+                          "backgroundColor": "white",
+                        },
+                        {
+                          "flexGrow": 1,
+                        },
+                      ]
+                    }
+                  >
+                    <View
+                      style={
+                        [
+                          {
+                            "alignItems": "center",
+                            "flexDirection": "row",
+                            "minHeight": 44,
+                            "paddingLeft": 15,
+                            "paddingRight": 20,
+                          },
+                          {
+                            "height": 133,
+                            "width": "100%",
+                          },
+                        ]
+                      }
+                    >
+                      <View
+                        style={
+                          {
+                            "flex": 7.8,
+                            "flexDirection": "row",
+                          }
+                        }
+                      >
+                        <View
+                          style={
+                            [
+                              {
+                                "height": 133,
+                                "justifyContent": "center",
+                              },
+                            ]
+                          }
+                        >
+                          <View
+                            accessibilityState={
+                              {
+                                "busy": undefined,
+                                "checked": undefined,
+                                "disabled": true,
+                                "expanded": undefined,
+                                "selected": undefined,
+                              }
+                            }
+                            accessibilityValue={
+                              {
+                                "max": undefined,
+                                "min": undefined,
+                                "now": undefined,
+                                "text": undefined,
+                              }
+                            }
+                            accessible={true}
+                            collapsable={false}
+                            focusable={true}
+                            onClick={[Function]}
+                            onResponderGrant={[Function]}
+                            onResponderMove={[Function]}
+                            onResponderRelease={[Function]}
+                            onResponderTerminate={[Function]}
+                            onResponderTerminationRequest={[Function]}
+                            onStartShouldSetResponder={[Function]}
+                            style={
+                              {
+                                "alignSelf": "center",
+                                "aspectRatio": 1,
+                                "height": 95,
+                                "marginRight": 19,
+                                "opacity": 1,
+                              }
+                            }
+                          >
+                            <Image
+                              source={1}
+                              style={
+                                {
+                                  "aspectRatio": 1,
+                                  "height": 95,
+                                }
+                              }
+                            />
+                          </View>
+                        </View>
+                        <Text
+                          numberOfLines={1}
+                          style={
+                            {
+                              "alignSelf": "center",
+                              "fontSize": 38,
+                              "width": "73%",
+                            }
+                          }
+                        >
+                          Medicine 4
+                        </Text>
+                      </View>
+                      <View
+                        style={
+                          {
+                            "alignItems": "center",
+                            "flex": 3,
+                            "flexDirection": "row",
+                            "height": 133,
+                            "justifyContent": "space-between",
+                          }
+                        }
+                      >
+                        <View
+                          accessibilityState={
+                            {
+                              "busy": undefined,
+                              "checked": undefined,
+                              "disabled": undefined,
+                              "expanded": undefined,
+                              "selected": undefined,
+                            }
+                          }
+                          accessibilityValue={
+                            {
+                              "max": undefined,
+                              "min": undefined,
+                              "now": undefined,
+                              "text": undefined,
+                            }
+                          }
+                          accessible={true}
+                          collapsable={false}
+                          focusable={true}
+                          onClick={[Function]}
+                          onResponderGrant={[Function]}
+                          onResponderMove={[Function]}
+                          onResponderRelease={[Function]}
+                          onResponderTerminate={[Function]}
+                          onResponderTerminationRequest={[Function]}
+                          onStartShouldSetResponder={[Function]}
+                          style={
+                            {
+                              "alignItems": "center",
+                              "aspectRatio": 1,
+                              "justifyContent": "center",
+                              "opacity": 1,
+                              "width": 67,
+                            }
+                          }
+                        >
+                          <Text />
+                        </View>
+                        <View
+                          accessibilityState={
+                            {
+                              "busy": undefined,
+                              "checked": undefined,
+                              "disabled": undefined,
+                              "expanded": undefined,
+                              "selected": undefined,
+                            }
+                          }
+                          accessibilityValue={
+                            {
+                              "max": undefined,
+                              "min": undefined,
+                              "now": undefined,
+                              "text": undefined,
+                            }
+                          }
+                          accessible={true}
+                          collapsable={false}
+                          focusable={true}
+                          onClick={[Function]}
+                          onResponderGrant={[Function]}
+                          onResponderMove={[Function]}
+                          onResponderRelease={[Function]}
+                          onResponderTerminate={[Function]}
+                          onResponderTerminationRequest={[Function]}
+                          onStartShouldSetResponder={[Function]}
+                          style={
+                            {
+                              "alignItems": "center",
+                              "aspectRatio": 1,
+                              "justifyContent": "center",
+                              "opacity": 1,
+                              "width": 67,
+                            }
+                          }
+                        >
+                          <Text />
+                        </View>
+                        <View
+                          accessibilityState={
+                            {
+                              "busy": undefined,
+                              "checked": undefined,
+                              "disabled": undefined,
+                              "expanded": undefined,
+                              "selected": undefined,
+                            }
+                          }
+                          accessibilityValue={
+                            {
+                              "max": undefined,
+                              "min": undefined,
+                              "now": undefined,
+                              "text": undefined,
+                            }
+                          }
+                          accessible={true}
+                          collapsable={false}
+                          focusable={true}
+                          onClick={[Function]}
+                          onResponderGrant={[Function]}
+                          onResponderMove={[Function]}
+                          onResponderRelease={[Function]}
+                          onResponderTerminate={[Function]}
+                          onResponderTerminationRequest={[Function]}
+                          onStartShouldSetResponder={[Function]}
+                          style={
+                            {
+                              "alignItems": "center",
+                              "aspectRatio": 1,
+                              "justifyContent": "center",
+                              "opacity": 1,
+                              "width": 67,
+                            }
+                          }
+                        >
+                          <Text />
+                        </View>
+                      </View>
+                    </View>
+                  </View>
+                </View>
+                <View
+                  style={
+                    [
+                      {
+                        "flexDirection": "column",
+                      },
+                      undefined,
+                    ]
+                  }
+                >
+                  <View
+                    style={
+                      [
+                        {},
+                        {
+                          "backgroundColor": undefined,
+                          "paddingBottom": 0,
+                          "paddingTop": 0,
+                        },
+                      ]
+                    }
+                  >
+                    <View
+                      style={
+                        [
+                          {},
+                          {
+                            "backgroundColor": "#FFF",
+                          },
+                        ]
+                      }
+                    >
+                      <View
+                        style={
+                          [
+                            {
+                              "height": 0.5,
+                            },
+                            {
+                              "backgroundColor": "#C8C7CC",
+                              "marginLeft": 0,
+                              "marginRight": 0,
+                            },
+                          ]
+                        }
+                      />
+                    </View>
+                    <View
+                      style={
+                        [
+                          {},
+                          false,
+                        ]
+                      }
+                    >
+                      <View>
+                        <View>
+                          <View
+                            style={
+                              [
+                                {
+                                  "backgroundColor": "#FFF",
+                                },
+                                {
+                                  "flexGrow": 1,
+                                },
+                              ]
+                            }
+                          >
+                            <View
+                              style={
+                                [
+                                  {
+                                    "alignItems": "center",
+                                    "flexDirection": "row",
+                                    "minHeight": 44,
+                                    "paddingLeft": 15,
+                                    "paddingRight": 20,
+                                  },
+                                  {
+                                    "alignItems": "center",
+                                    "height": 78,
+                                    "width": "100%",
+                                  },
+                                ]
+                              }
+                            >
+                              <View
+                                style={
+                                  {
+                                    "flexDirection": "row",
+                                  }
+                                }
+                              >
+                                <View
+                                  style={
+                                    {
+                                      "alignItems": "center",
+                                      "flexDirection": "row",
+                                      "justifyContent": "space-between",
+                                      "marginRight": 15,
+                                      "width": 99,
+                                    }
+                                  }
+                                >
+                                  <Text
+                                    style={
+                                      {
+                                        "fontSize": 25,
+                                      }
+                                    }
+                                  >
+                                    Date
+                                  </Text>
+                                  <View
+                                    style={
+                                      {
+                                        "flex": 1,
+                                      }
+                                    }
+                                  />
+                                  <Text
+                                    style={
+                                      {
+                                        "fontSize": 25,
+                                        "textAlign": "right",
+                                      }
+                                    }
+                                  >
+                                    :
+                                  </Text>
+                                </View>
+                                <View
+                                  style={
+                                    {
+                                      "alignSelf": "center",
+                                      "flexDirection": "row",
+                                    }
+                                  }
+                                >
+                                  <Text
+                                    style={
+                                      {
+                                        "alignSelf": "center",
+                                        "fontSize": 25,
+                                      }
+                                    }
+                                  >
+                                    2022/05/08
+                                      
+                                  </Text>
+                                  <Text />
+                                  <Text
+                                    style={
+                                      {
+                                        "alignSelf": "center",
+                                        "fontSize": 25,
+                                      }
+                                    }
+                                  >
+                                      
+                                    2022/05/08
+                                  </Text>
+                                </View>
+                              </View>
+                            </View>
+                          </View>
+                        </View>
+                        <View
+                          style={
+                            [
+                              {},
+                              {
+                                "backgroundColor": "#FFF",
+                              },
+                            ]
+                          }
+                        >
+                          <View
+                            style={
+                              [
+                                {
+                                  "height": 0.5,
+                                },
+                                {
+                                  "backgroundColor": "#C8C7CC",
+                                  "marginLeft": 0,
+                                  "marginRight": 0,
+                                },
+                              ]
+                            }
+                          />
+                        </View>
+                      </View>
+                      <View>
+                        <View>
+                          <View
+                            style={
+                              [
+                                {
+                                  "backgroundColor": "#FFF",
+                                },
+                                {
+                                  "flexGrow": 1,
+                                },
+                              ]
+                            }
+                          >
+                            <View
+                              style={
+                                [
+                                  {
+                                    "alignItems": "center",
+                                    "flexDirection": "row",
+                                    "minHeight": 44,
+                                    "paddingLeft": 15,
+                                    "paddingRight": 20,
+                                  },
+                                  {
+                                    "alignItems": "center",
+                                    "height": 78,
+                                    "width": "100%",
+                                  },
+                                ]
+                              }
+                            >
+                              <View
+                                style={
+                                  {
+                                    "flexDirection": "row",
+                                  }
+                                }
+                              >
+                                <View
+                                  style={
+                                    {
+                                      "alignItems": "center",
+                                      "flexDirection": "row",
+                                      "justifyContent": "space-between",
+                                      "marginRight": 15,
+                                      "width": 99,
+                                    }
+                                  }
+                                >
+                                  <Text
+                                    style={
+                                      {
+                                        "fontSize": 25,
+                                      }
+                                    }
+                                  >
+                                    Repeat
+                                  </Text>
+                                  <View
+                                    style={
+                                      {
+                                        "flex": 1,
+                                      }
+                                    }
+                                  />
+                                  <Text
+                                    style={
+                                      {
+                                        "fontSize": 25,
+                                        "textAlign": "right",
+                                      }
+                                    }
+                                  >
+                                    :
+                                  </Text>
+                                </View>
+                                <Text
+                                  style={
+                                    {
+                                      "alignSelf": "center",
+                                      "fontSize": 25,
+                                    }
+                                  }
+                                >
+                                  Every 1 day
+                                </Text>
+                              </View>
+                            </View>
+                          </View>
+                        </View>
+                        <View
+                          style={
+                            [
+                              {},
+                              {
+                                "backgroundColor": "#FFF",
+                              },
+                            ]
+                          }
+                        >
+                          <View
+                            style={
+                              [
+                                {
+                                  "height": 0.5,
+                                },
+                                {
+                                  "backgroundColor": "#C8C7CC",
+                                  "marginLeft": 0,
+                                  "marginRight": 0,
+                                },
+                              ]
+                            }
+                          />
+                        </View>
+                      </View>
+                      <View>
+                        <View
+                          style={
+                            [
+                              {
+                                "backgroundColor": "#FFF",
+                              },
+                              {
+                                "flexGrow": 1,
+                              },
+                            ]
+                          }
+                        >
+                          <View
+                            style={
+                              [
+                                {
+                                  "alignItems": "center",
+                                  "flexDirection": "row",
+                                  "minHeight": 44,
+                                  "paddingLeft": 15,
+                                  "paddingRight": 20,
+                                },
+                                {
+                                  "alignItems": "center",
+                                  "height": 78,
+                                  "width": "100%",
+                                },
+                              ]
+                            }
+                          >
+                            <View
+                              style={
+                                {
+                                  "flexDirection": "row",
+                                }
+                              }
+                            >
+                              <View
+                                style={
+                                  {
+                                    "alignItems": "center",
+                                    "flexDirection": "row",
+                                    "justifyContent": "space-between",
+                                    "marginRight": 15,
+                                    "width": 99,
+                                  }
+                                }
+                              >
+                                <Text
+                                  style={
+                                    {
+                                      "fontSize": 25,
+                                    }
+                                  }
+                                >
+                                  Time
+                                </Text>
+                                <View
+                                  style={
+                                    {
+                                      "flex": 1,
+                                    }
+                                  }
+                                />
+                                <Text
+                                  style={
+                                    {
+                                      "fontSize": 25,
+                                      "textAlign": "right",
+                                    }
+                                  }
+                                >
+                                  :
+                                </Text>
+                              </View>
+                              <Text
+                                style={
+                                  {
+                                    "alignSelf": "center",
+                                    "fontSize": 25,
+                                  }
+                                }
+                              >
+                                20:00
+                              </Text>
+                            </View>
+                          </View>
+                        </View>
+                      </View>
+                    </View>
+                    <View
+                      style={
+                        [
+                          {},
+                          {
+                            "backgroundColor": "#FFF",
+                          },
+                        ]
+                      }
+                    >
+                      <View
+                        style={
+                          [
+                            {
+                              "height": 0.5,
+                            },
+                            {
+                              "backgroundColor": "#C8C7CC",
+                              "marginLeft": 0,
+                              "marginRight": 0,
+                            },
+                          ]
+                        }
+                      />
+                    </View>
+                  </View>
+                </View>
+              </View>
+              <View
+                style={
+                  [
+                    {},
+                    {
+                      "backgroundColor": "#FFF",
+                    },
+                  ]
+                }
+              >
+                <View
+                  style={
+                    [
+                      {
+                        "height": 0.5,
+                      },
+                      {
+                        "backgroundColor": "#C8C7CC",
+                        "marginLeft": 0,
+                        "marginRight": 0,
+                      },
+                    ]
+                  }
+                />
+              </View>
+            </View>
+            <View>
+              <View>
+                <View
+                  style={
+                    [
+                      {
+                        "backgroundColor": "white",
+                      },
+                      {
+                        "flexGrow": 1,
+                      },
+                    ]
+                  }
+                >
+                  <View
+                    style={
+                      [
+                        {
+                          "alignItems": "center",
+                          "flexDirection": "row",
+                          "minHeight": 44,
+                          "paddingLeft": 15,
+                          "paddingRight": 20,
+                        },
+                        {
+                          "height": 133,
+                          "width": "100%",
+                        },
+                      ]
+                    }
+                  >
+                    <View
+                      style={
+                        {
+                          "flex": 7.8,
+                          "flexDirection": "row",
+                        }
+                      }
+                    >
+                      <View
+                        style={
+                          [
+                            {
+                              "height": 133,
+                              "justifyContent": "center",
+                            },
+                          ]
+                        }
+                      >
+                        <View
+                          accessibilityState={
+                            {
+                              "busy": undefined,
+                              "checked": undefined,
+                              "disabled": true,
+                              "expanded": undefined,
+                              "selected": undefined,
+                            }
+                          }
+                          accessibilityValue={
+                            {
+                              "max": undefined,
+                              "min": undefined,
+                              "now": undefined,
+                              "text": undefined,
+                            }
+                          }
+                          accessible={true}
+                          collapsable={false}
+                          focusable={true}
+                          onClick={[Function]}
+                          onResponderGrant={[Function]}
+                          onResponderMove={[Function]}
+                          onResponderRelease={[Function]}
+                          onResponderTerminate={[Function]}
+                          onResponderTerminationRequest={[Function]}
+                          onStartShouldSetResponder={[Function]}
+                          style={
+                            {
+                              "alignSelf": "center",
+                              "aspectRatio": 1,
+                              "height": 95,
+                              "marginRight": 19,
+                              "opacity": 1,
+                            }
+                          }
+                        >
+                          <Image
+                            source={1}
+                            style={
+                              {
+                                "aspectRatio": 1,
+                                "height": 95,
+                              }
+                            }
+                          />
+                        </View>
+                      </View>
+                      <Text
+                        numberOfLines={1}
+                        style={
+                          {
+                            "alignSelf": "center",
+                            "fontSize": 38,
+                            "width": "73%",
+                          }
+                        }
+                      >
+                        Medicine 5
+                      </Text>
+                    </View>
+                    <View
+                      style={
+                        {
+                          "alignItems": "center",
+                          "flex": 3,
+                          "flexDirection": "row",
+                          "height": 133,
+                          "justifyContent": "space-between",
+                        }
+                      }
+                    >
+                      <View
+                        accessibilityState={
+                          {
+                            "busy": undefined,
+                            "checked": undefined,
+                            "disabled": undefined,
+                            "expanded": undefined,
+                            "selected": undefined,
+                          }
+                        }
+                        accessibilityValue={
+                          {
+                            "max": undefined,
+                            "min": undefined,
+                            "now": undefined,
+                            "text": undefined,
+                          }
+                        }
+                        accessible={true}
+                        collapsable={false}
+                        focusable={true}
+                        onClick={[Function]}
+                        onResponderGrant={[Function]}
+                        onResponderMove={[Function]}
+                        onResponderRelease={[Function]}
+                        onResponderTerminate={[Function]}
+                        onResponderTerminationRequest={[Function]}
+                        onStartShouldSetResponder={[Function]}
+                        style={
+                          {
+                            "alignItems": "center",
+                            "aspectRatio": 1,
+                            "justifyContent": "center",
+                            "opacity": 1,
+                            "width": 67,
+                          }
+                        }
+                      >
+                        <Text />
+                      </View>
+                      <View
+                        accessibilityState={
+                          {
+                            "busy": undefined,
+                            "checked": undefined,
+                            "disabled": undefined,
+                            "expanded": undefined,
+                            "selected": undefined,
+                          }
+                        }
+                        accessibilityValue={
+                          {
+                            "max": undefined,
+                            "min": undefined,
+                            "now": undefined,
+                            "text": undefined,
+                          }
+                        }
+                        accessible={true}
+                        collapsable={false}
+                        focusable={true}
+                        onClick={[Function]}
+                        onResponderGrant={[Function]}
+                        onResponderMove={[Function]}
+                        onResponderRelease={[Function]}
+                        onResponderTerminate={[Function]}
+                        onResponderTerminationRequest={[Function]}
+                        onStartShouldSetResponder={[Function]}
+                        style={
+                          {
+                            "alignItems": "center",
+                            "aspectRatio": 1,
+                            "justifyContent": "center",
+                            "opacity": 1,
+                            "width": 67,
+                          }
+                        }
+                      >
+                        <Text />
+                      </View>
+                      <View
+                        accessibilityState={
+                          {
+                            "busy": undefined,
+                            "checked": undefined,
+                            "disabled": undefined,
+                            "expanded": undefined,
+                            "selected": undefined,
+                          }
+                        }
+                        accessibilityValue={
+                          {
+                            "max": undefined,
+                            "min": undefined,
+                            "now": undefined,
+                            "text": undefined,
+                          }
+                        }
+                        accessible={true}
+                        collapsable={false}
+                        focusable={true}
+                        onClick={[Function]}
+                        onResponderGrant={[Function]}
+                        onResponderMove={[Function]}
+                        onResponderRelease={[Function]}
+                        onResponderTerminate={[Function]}
+                        onResponderTerminationRequest={[Function]}
+                        onStartShouldSetResponder={[Function]}
+                        style={
+                          {
+                            "alignItems": "center",
+                            "aspectRatio": 1,
+                            "justifyContent": "center",
+                            "opacity": 1,
+                            "width": 67,
+                          }
+                        }
+                      >
+                        <Text />
+                      </View>
+                    </View>
+                  </View>
+                </View>
+              </View>
+              <View
+                style={
+                  [
+                    {
+                      "flexDirection": "column",
+                    },
+                    undefined,
+                  ]
+                }
+              >
+                <View
+                  style={
+                    [
+                      {},
+                      {
+                        "backgroundColor": undefined,
+                        "paddingBottom": 0,
+                        "paddingTop": 0,
+                      },
+                    ]
+                  }
+                >
+                  <View
+                    style={
+                      [
+                        {},
+                        {
+                          "backgroundColor": "#FFF",
+                        },
+                      ]
+                    }
+                  >
+                    <View
+                      style={
+                        [
+                          {
+                            "height": 0.5,
+                          },
+                          {
+                            "backgroundColor": "#C8C7CC",
+                            "marginLeft": 0,
+                            "marginRight": 0,
+                          },
+                        ]
+                      }
+                    />
+                  </View>
+                  <View
+                    style={
+                      [
+                        {},
+                        false,
+                      ]
+                    }
+                  >
+                    <View>
+                      <View>
+                        <View
+                          style={
+                            [
+                              {
+                                "backgroundColor": "#FFF",
+                              },
+                              {
+                                "flexGrow": 1,
+                              },
+                            ]
+                          }
+                        >
+                          <View
+                            style={
+                              [
+                                {
+                                  "alignItems": "center",
+                                  "flexDirection": "row",
+                                  "minHeight": 44,
+                                  "paddingLeft": 15,
+                                  "paddingRight": 20,
+                                },
+                                {
+                                  "alignItems": "center",
+                                  "height": 78,
+                                  "width": "100%",
+                                },
+                              ]
+                            }
+                          >
+                            <View
+                              style={
+                                {
+                                  "flexDirection": "row",
+                                }
+                              }
+                            >
+                              <View
+                                style={
+                                  {
+                                    "alignItems": "center",
+                                    "flexDirection": "row",
+                                    "justifyContent": "space-between",
+                                    "marginRight": 15,
+                                    "width": 99,
+                                  }
+                                }
+                              >
+                                <Text
+                                  style={
+                                    {
+                                      "fontSize": 25,
+                                    }
+                                  }
+                                >
+                                  Date
+                                </Text>
+                                <View
+                                  style={
+                                    {
+                                      "flex": 1,
+                                    }
+                                  }
+                                />
+                                <Text
+                                  style={
+                                    {
+                                      "fontSize": 25,
+                                      "textAlign": "right",
+                                    }
+                                  }
+                                >
+                                  :
+                                </Text>
+                              </View>
+                              <Text
+                                style={
+                                  {
+                                    "alignSelf": "center",
+                                    "fontSize": 25,
+                                  }
+                                }
+                              >
+                                From 
+                                2022/05/09
+                              </Text>
+                            </View>
+                          </View>
+                        </View>
+                      </View>
+                      <View
+                        style={
+                          [
+                            {},
+                            {
+                              "backgroundColor": "#FFF",
+                            },
+                          ]
+                        }
+                      >
+                        <View
+                          style={
+                            [
+                              {
+                                "height": 0.5,
+                              },
+                              {
+                                "backgroundColor": "#C8C7CC",
+                                "marginLeft": 0,
+                                "marginRight": 0,
+                              },
+                            ]
+                          }
+                        />
+                      </View>
+                    </View>
+                    <View>
+                      <View>
+                        <View
+                          style={
+                            [
+                              {
+                                "backgroundColor": "#FFF",
+                              },
+                              {
+                                "flexGrow": 1,
+                              },
+                            ]
+                          }
+                        >
+                          <View
+                            style={
+                              [
+                                {
+                                  "alignItems": "center",
+                                  "flexDirection": "row",
+                                  "minHeight": 44,
+                                  "paddingLeft": 15,
+                                  "paddingRight": 20,
+                                },
+                                {
+                                  "alignItems": "center",
+                                  "height": 78,
+                                  "width": "100%",
+                                },
+                              ]
+                            }
+                          >
+                            <View
+                              style={
+                                {
+                                  "flexDirection": "row",
+                                }
+                              }
+                            >
+                              <View
+                                style={
+                                  {
+                                    "alignItems": "center",
+                                    "flexDirection": "row",
+                                    "justifyContent": "space-between",
+                                    "marginRight": 15,
+                                    "width": 99,
+                                  }
+                                }
+                              >
+                                <Text
+                                  style={
+                                    {
+                                      "fontSize": 25,
+                                    }
+                                  }
+                                >
+                                  Repeat
+                                </Text>
+                                <View
+                                  style={
+                                    {
+                                      "flex": 1,
+                                    }
+                                  }
+                                />
+                                <Text
+                                  style={
+                                    {
+                                      "fontSize": 25,
+                                      "textAlign": "right",
+                                    }
+                                  }
+                                >
+                                  :
+                                </Text>
+                              </View>
+                              <Text
+                                style={
+                                  {
+                                    "alignSelf": "center",
+                                    "fontSize": 25,
+                                  }
+                                }
+                              >
+                                Every 3 days
+                              </Text>
+                            </View>
+                          </View>
+                        </View>
+                      </View>
+                      <View
+                        style={
+                          [
+                            {},
+                            {
+                              "backgroundColor": "#FFF",
+                            },
+                          ]
+                        }
+                      >
+                        <View
+                          style={
+                            [
+                              {
+                                "height": 0.5,
+                              },
+                              {
+                                "backgroundColor": "#C8C7CC",
+                                "marginLeft": 0,
+                                "marginRight": 0,
+                              },
+                            ]
+                          }
+                        />
+                      </View>
+                    </View>
+                    <View>
+                      <View
+                        style={
+                          [
+                            {
+                              "backgroundColor": "#FFF",
+                            },
+                            {
+                              "flexGrow": 1,
+                            },
+                          ]
+                        }
+                      >
+                        <View
+                          style={
+                            [
+                              {
+                                "alignItems": "center",
+                                "flexDirection": "row",
+                                "minHeight": 44,
+                                "paddingLeft": 15,
+                                "paddingRight": 20,
+                              },
+                              {
+                                "alignItems": "center",
+                                "height": 78,
+                                "width": "100%",
+                              },
+                            ]
+                          }
+                        >
+                          <View
+                            style={
+                              {
+                                "flexDirection": "row",
+                              }
+                            }
+                          >
+                            <View
+                              style={
+                                {
+                                  "alignItems": "center",
+                                  "flexDirection": "row",
+                                  "justifyContent": "space-between",
+                                  "marginRight": 15,
+                                  "width": 99,
+                                }
+                              }
+                            >
+                              <Text
+                                style={
+                                  {
+                                    "fontSize": 25,
+                                  }
+                                }
+                              >
+                                Time
+                              </Text>
+                              <View
+                                style={
+                                  {
+                                    "flex": 1,
+                                  }
+                                }
+                              />
+                              <Text
+                                style={
+                                  {
+                                    "fontSize": 25,
+                                    "textAlign": "right",
+                                  }
+                                }
+                              >
+                                :
+                              </Text>
+                            </View>
+                            <Text
+                              style={
+                                {
+                                  "alignSelf": "center",
+                                  "fontSize": 25,
+                                }
+                              }
+                            >
+                              20:00
+                            </Text>
+                          </View>
+                        </View>
+                      </View>
+                    </View>
+                  </View>
+                  <View
+                    style={
+                      [
+                        {},
+                        {
+                          "backgroundColor": "#FFF",
+                        },
+                      ]
+                    }
+                  >
+                    <View
+                      style={
+                        [
+                          {
+                            "height": 0.5,
+                          },
+                          {
+                            "backgroundColor": "#C8C7CC",
+                            "marginLeft": 0,
+                            "marginRight": 0,
+                          },
+                        ]
+                      }
+                    />
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+          <View
+            style={
+              [
+                {},
+                {
+                  "backgroundColor": "#FFF",
+                },
+              ]
+            }
+          >
+            <View
+              style={
+                [
+                  {
+                    "height": 0.5,
+                  },
+                  {
+                    "backgroundColor": "#C8C7CC",
+                    "marginLeft": 0,
+                    "marginRight": 0,
+                  },
+                ]
+              }
+            />
+          </View>
+        </View>
+      </View>
+      <View
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": undefined,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "alignContent": "center",
+            "alignSelf": "center",
+            "backgroundColor": "#f44336",
+            "borderRadius": 45,
+            "height": 90,
+            "justifyContent": "center",
+            "marginBottom": 152,
+            "marginTop": 53,
+            "opacity": 1,
+            "width": "69%",
+          }
+        }
+      >
+        <Text
+          style={
+            {
+              "color": "white",
+              "fontSize": 36,
+              "fontWeight": "bold",
+              "textAlign": "center",
+            }
+          }
+        >
+          Delete All
+        </Text>
+      </View>
+    </View>
+  </RCTScrollView>
+  <View
+    style={
+      {
+        "bottom": 0,
+        "padding": 29,
+        "position": "absolute",
+        "right": 0,
+      }
+    }
+  >
+    <View
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": false,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "alignContent": "center",
+          "backgroundColor": "#00adf8",
+          "borderRadius": 48,
+          "height": 95,
+          "justifyContent": "center",
+          "opacity": 1,
+          "width": 95,
+        }
+      }
+    >
+      <Text />
+    </View>
+  </View>
+</View>
+`;

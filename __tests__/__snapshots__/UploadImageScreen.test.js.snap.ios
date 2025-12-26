@@ -1,0 +1,197 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<UploadImageScreen /> renders correctly without crashing 1`] = `
+<RCTSafeAreaView>
+  <View
+    accessibilityState={
+      {
+        "busy": undefined,
+        "checked": undefined,
+        "disabled": undefined,
+        "expanded": undefined,
+        "selected": undefined,
+      }
+    }
+    accessibilityValue={
+      {
+        "max": undefined,
+        "min": undefined,
+        "now": undefined,
+        "text": undefined,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      {
+        "alignItems": "center",
+        "aspectRatio": 1,
+        "justifyContent": "center",
+        "marginBottom": 129,
+        "marginTop": 4,
+        "opacity": 1,
+        "width": 98,
+      }
+    }
+  >
+    <Text />
+  </View>
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "width": "100%",
+      }
+    }
+  >
+    <View
+      style={
+        {
+          "alignItems": "center",
+          "aspectRatio": 1,
+          "justifyContent": "center",
+          "marginBottom": 39,
+          "width": "95%",
+        }
+      }
+    >
+      <View
+        style={
+          {
+            "aspectRatio": 1,
+            "borderRadius": 10,
+            "borderStyle": "dashed",
+            "borderWidth": 4,
+            "position": "absolute",
+            "width": "100%",
+          }
+        }
+      />
+      <Image
+        source={1}
+        style={
+          {
+            "aspectRatio": 1,
+            "resizeMode": "center",
+            "width": "100%",
+          }
+        }
+      />
+    </View>
+    <View
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": undefined,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "alignContent": "center",
+          "backgroundColor": "lightblue",
+          "borderRadius": 10,
+          "borderWidth": 4,
+          "height": 69,
+          "justifyContent": "center",
+          "marginBottom": 29,
+          "opacity": 1,
+          "width": "70%",
+        }
+      }
+    >
+      <Text
+        style={
+          {
+            "fontSize": 27,
+            "textAlign": "center",
+          }
+        }
+      >
+        Take Photo
+      </Text>
+    </View>
+    <View
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": undefined,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "alignContent": "center",
+          "backgroundColor": "lightblue",
+          "borderRadius": 10,
+          "borderWidth": 4,
+          "height": 69,
+          "justifyContent": "center",
+          "marginBottom": 29,
+          "opacity": 1,
+          "width": "70%",
+        }
+      }
+    >
+      <Text
+        style={
+          {
+            "fontSize": 27,
+            "textAlign": "center",
+          }
+        }
+      >
+        Choose File
+      </Text>
+    </View>
+  </View>
+</RCTSafeAreaView>
+`;

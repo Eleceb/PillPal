@@ -1,0 +1,384 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<RegisterScreen /> renders correctly without crashing 1`] = `
+<View
+  style={
+    {
+      "alignItems": "center",
+      "flex": 1,
+      "justifyContent": "center",
+    }
+  }
+>
+  <RCTSafeAreaView
+    accessibilityState={
+      {
+        "busy": undefined,
+        "checked": undefined,
+        "disabled": undefined,
+        "expanded": undefined,
+        "selected": undefined,
+      }
+    }
+    accessible={true}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      {
+        "flex": 1,
+        "width": "100%",
+      }
+    }
+  >
+    <View
+      style={
+        {
+          "paddingTop": "10%",
+        }
+      }
+    >
+      <View>
+        <View
+          style={
+            {
+              "alignSelf": "center",
+              "paddingBottom": 16,
+              "width": "87.5%",
+            }
+          }
+        >
+          <Text
+            style={
+              {
+                "fontSize": 27,
+              }
+            }
+          >
+            Username
+            <Text
+              style={
+                [
+                  {
+                    "fontSize": 27,
+                  },
+                  {
+                    "color": "red",
+                  },
+                ]
+              }
+            >
+               *
+            </Text>
+          </Text>
+        </View>
+        <View
+          style={
+            {
+              "marginBottom": 49,
+            }
+          }
+        >
+          <View
+            style={
+              {
+                "paddingBottom": 16,
+              }
+            }
+          >
+            <TextInput
+              autoCapitalize="none"
+              autoCorrect={false}
+              editable={true}
+              onChangeText={[Function]}
+              placeholder="Enter your username..."
+              placeholderTextColor="#838383"
+              secureTextEntry={false}
+              style={
+                [
+                  [
+                    {
+                      "alignSelf": "center",
+                      "borderBottomWidth": 2,
+                      "borderColor": "grey",
+                      "fontSize": 31,
+                      "textAlign": "left",
+                      "width": "87.5%",
+                    },
+                    {
+                      "borderColor": "red",
+                    },
+                  ],
+                  false,
+                ]
+              }
+              value="test"
+            />
+          </View>
+          <View
+            style={
+              {
+                "alignSelf": "center",
+                "width": "87.5%",
+              }
+            }
+          >
+            <Text
+              style={
+                {
+                  "color": "red",
+                  "fontSize": 24,
+                }
+              }
+            >
+              ⚠ 
+              You cannot leave the username empty.
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View>
+        <View
+          style={
+            {
+              "alignSelf": "center",
+              "paddingBottom": 16,
+              "width": "87.5%",
+            }
+          }
+        >
+          <Text
+            style={
+              {
+                "fontSize": 27,
+              }
+            }
+          >
+            Password
+            <Text
+              style={
+                [
+                  {
+                    "fontSize": 27,
+                  },
+                  {
+                    "color": "red",
+                  },
+                ]
+              }
+            >
+               *
+            </Text>
+          </Text>
+        </View>
+        <View
+          style={
+            {
+              "marginBottom": 49,
+            }
+          }
+        >
+          <View
+            style={
+              {
+                "paddingBottom": 16,
+              }
+            }
+          >
+            <TextInput
+              autoCapitalize="none"
+              autoCorrect={false}
+              editable={true}
+              onChangeText={[Function]}
+              placeholder="Enter your password..."
+              placeholderTextColor="#838383"
+              secureTextEntry={true}
+              style={
+                [
+                  [
+                    {
+                      "alignSelf": "center",
+                      "borderBottomWidth": 2,
+                      "borderColor": "grey",
+                      "fontSize": 31,
+                      "textAlign": "left",
+                      "width": "87.5%",
+                    },
+                    {
+                      "borderColor": "red",
+                    },
+                  ],
+                  false,
+                ]
+              }
+              value=""
+            />
+          </View>
+          <View
+            style={
+              {
+                "alignSelf": "center",
+                "width": "87.5%",
+              }
+            }
+          >
+            <Text
+              style={
+                {
+                  "color": "red",
+                  "fontSize": 24,
+                }
+              }
+            >
+              ⚠ 
+              You cannot leave the password empty.
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View>
+        <View
+          style={
+            {
+              "alignSelf": "center",
+              "paddingBottom": 16,
+              "width": "87.5%",
+            }
+          }
+        >
+          <Text
+            style={
+              {
+                "fontSize": 27,
+              }
+            }
+          >
+            Confirm Password
+            <Text
+              style={
+                [
+                  {
+                    "fontSize": 27,
+                  },
+                  {
+                    "color": "red",
+                  },
+                ]
+              }
+            >
+               *
+            </Text>
+          </Text>
+        </View>
+        <View
+          style={
+            {
+              "marginBottom": 49,
+            }
+          }
+        >
+          <View
+            style={
+              {
+                "paddingBottom": 16,
+              }
+            }
+          >
+            <TextInput
+              autoCapitalize="none"
+              autoCorrect={false}
+              editable={true}
+              onChangeText={[Function]}
+              placeholder="Enter your password again..."
+              placeholderTextColor="#838383"
+              secureTextEntry={true}
+              style={
+                [
+                  {
+                    "alignSelf": "center",
+                    "borderBottomWidth": 2,
+                    "borderColor": "grey",
+                    "fontSize": 31,
+                    "textAlign": "left",
+                    "width": "87.5%",
+                  },
+                  false,
+                ]
+              }
+              value=""
+            />
+          </View>
+        </View>
+      </View>
+    </View>
+    <View
+      style={
+        {
+          "alignItems": "center",
+          "justifyContent": "center",
+          "marginTop": 53,
+        }
+      }
+    >
+      <View
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": false,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "alignContent": "center",
+            "backgroundColor": "blue",
+            "borderRadius": 47,
+            "height": 93,
+            "justifyContent": "center",
+            "opacity": 1,
+            "width": "69%",
+          }
+        }
+      >
+        <Text
+          style={
+            {
+              "color": "white",
+              "fontSize": 37,
+              "fontWeight": "bold",
+              "textAlign": "center",
+            }
+          }
+        >
+          Register
+        </Text>
+      </View>
+    </View>
+  </RCTSafeAreaView>
+</View>
+`;

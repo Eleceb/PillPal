@@ -1,0 +1,50 @@
+{
+  "expo": {
+    "name": "PillPal",
+    "slug": "pillpal",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.eleceb.pillpal"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.eleceb.pillpal",
+      "permissions": [
+        "android.permission.SCHEDULE_EXACT_ALARM"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "config": {
+        "googleMaps": {
+          "apiKey": "(Put your Firebase API key here)"
+        }
+      }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "fa554535-83e0-405a-a8c3-7db136656db6"
+      }
+    },
+    "owner": "eleceb",
+    "runtimeVersion": "exposdk:51.0.0",
+    "updates": {
+      "url": "https://u.expo.dev/fa554535-83e0-405a-a8c3-7db136656db6"
+    }
+  }
+}
