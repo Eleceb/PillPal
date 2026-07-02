@@ -1,0 +1,15 @@
+rules_version = '2';
+
+// PillPal Firestore layout: each user has a top-level collection named after
+// their username, containing a 'Medicines' document. Auth accounts use
+// synthetic emails of the form <username>@pillpal.app (see toAuthEmail in
+// FirebaseConfig.js), so ownership is enforced by matching the collection
+// name against the signed-in user's email.
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /{username}/{document=**} {
+      allow read, write: if request.auth != null
+        && request.auth.token.email == username + '@pillpal.app';
+    }
+  }
+}
