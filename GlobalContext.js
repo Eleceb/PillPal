@@ -13,8 +13,9 @@ import {
 } from 'react-native';
 import React, { createContext, useEffect, useState, useContext } from 'react';
 import { RFValue } from 'react-native-responsive-fontsize'; // To make the UI responsive
-import { firestore, storage } from './FirebaseConfig';
-import { collection, doc, getDoc } from 'firebase/firestore';
+import { auth, firestore, storage } from './FirebaseConfig';
+import { onAuthStateChanged } from 'firebase/auth';
+import { collection, doc, getDoc, setDoc } from 'firebase/firestore';
 import { ref, getDownloadURL } from "firebase/storage";
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import * as Notifications from 'expo-notifications';
@@ -38,17 +39,24 @@ export const GlobalProvider = ({ children }) => {
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
+    const unsubscribe = onAuthStateChanged(auth, (user) => {
+      if (user) {
+        setUsernameText(user.email.split('@')[0]);
+        setIsLoggedIn(true);
+      } else {
+        setIsLoggedIn(false);
+        setIsLoading(false);
+      }
+    });
+
+    return unsubscribe;
+  }, []);
+
+  useEffect(() => {
     (async() => {
       try {
-        const userLoggedIn = await AsyncStorage.getItem('isLoggedIn');
-
-        if (userLoggedIn && JSON.parse(userLoggedIn) !== false) {
-          setIsLoggedIn(JSON.parse(userLoggedIn));
-        }
-
         if (isLoggedIn) {
-          const username = await AsyncStorage.getItem('username') || usernameText;
-          setUsernameText(username);
+          const username = usernameText;
 
           await registerForPushNotificationsAsync();
 
@@ -99,15 +107,12 @@ export const GlobalProvider = ({ children }) => {
             
             setMedicines(newMedicinesData);
           } else {
-            setErrorModalMsg({
-              'title': 'Error', 
-              'description': 'Medicines document does not exist.'
-            });
-            setErrorModalVisible(!errorModalVisible);
+            await setDoc(doc(collection(firestore, username), 'Medicines'), {});
+            setMedicines({});
           }
-        }
 
-        setIsLoading(false);
+          setIsLoading(false);
+        }
       } catch (error) {
         setErrorModalMsg({
           'title': 'Error', 

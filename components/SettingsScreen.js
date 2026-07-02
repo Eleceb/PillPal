@@ -15,7 +15,8 @@ import { RFValue } from 'react-native-responsive-fontsize'; // To make the UI re
 import { useGlobalContext } from '../GlobalContext';
 import AntDesign from '@expo/vector-icons/AntDesign';
 import moment from 'moment-timezone';
-import { firestore, storage } from '../FirebaseConfig';
+import { auth, firestore, storage } from '../FirebaseConfig';
+import { signOut } from 'firebase/auth';
 import { collection, doc, setDoc, updateDoc, deleteField } from 'firebase/firestore';
 import { ref, listAll, deleteObject } from "firebase/storage";
 import AsyncStorage from '@react-native-async-storage/async-storage';
@@ -29,7 +30,6 @@ const aspectRatio = height/width;
 
 export default function SettingsScreen({ navigation, route }) {
   const {
-    setIsLoggedIn,
     usernameText, setUsernameText,
     medicines, setMedicines,
     setMedicineDates,
@@ -175,13 +175,14 @@ export default function SettingsScreen({ navigation, route }) {
 
       await AsyncStorage.getAllKeys()
         .then(keys => AsyncStorage.multiRemove(keys))
-        .then(() => setIsLoggedIn(false))
 
       setUsernameText('');
       setMedicines(null);
       setMedicineDates(null);
       setIsTakenToday({});
       setNotificationId({});
+
+      await signOut(auth);
 
       setIsLoading(false);
     } catch (error) {
@@ -198,6 +199,7 @@ export default function SettingsScreen({ navigation, route }) {
       return (
         <Cell 
           {...props}
+          backgroundColor="white"
           contentContainerStyle={styles.cellDetailContainer} 
           cellContentView={
             <View style={styles.detailCellContainer}>
@@ -603,16 +605,19 @@ const styles = StyleSheet.create({
     marginRight: RFValue(8),
   },
   elementTitleText: {
+    color: 'black',
     fontSize: RFValue(13),
   },
   spaceContainer: {
     flex: 1,
   },
   elementColonText: {
+    color: 'black',
     fontSize: RFValue(13),
     textAlign: 'right',
   },
   elementDetailText: {
+    color: 'black',
     fontSize: RFValue(13),
     alignSelf: 'center'
   },

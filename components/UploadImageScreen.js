@@ -84,7 +84,7 @@ export default function UploadImageScreen({ navigation, route }) {
           <View style={styles.dashedLine} />
           <Image
             style={styles.imagePlaceholder}
-            source={require("../assets/image.png")}
+            source={require("../assets/upload-placeholder.png")}
           />
         </View>
       );

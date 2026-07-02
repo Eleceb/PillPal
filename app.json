@@ -20,19 +20,24 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/icon.png",
+        "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
       "package": "com.eleceb.pillpal",
       "permissions": [
         "android.permission.SCHEDULE_EXACT_ALARM"
-      ]
+      ],
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyDD9SPXcFAfH3sRWMLKvzXw0ba8fE6PYXY"
+        }
+      }
     },
     "web": {
       "favicon": "./assets/favicon.png",
       "config": {
         "googleMaps": {
-          "apiKey": "(Put your Firebase API key here)"
+          "apiKey": "AIzaSyDD9SPXcFAfH3sRWMLKvzXw0ba8fE6PYXY"
         }
       }
     },
@@ -44,7 +49,7 @@
     "owner": "eleceb",
     "runtimeVersion": "exposdk:51.0.0",
     "updates": {
-      "url": "https://u.expo.dev/fa554535-83e0-405a-a8c3-7db136656db6"
+      "enabled": false
     }
   }
 }

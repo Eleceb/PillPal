@@ -22,7 +22,7 @@ export default function LocationScreen() {
     errorModalVisible, setErrorModalVisible
   } = useGlobalContext();
 
-  const apiKey = '(Put your Firebase API key here)';
+  const apiKey = 'AIzaSyDD9SPXcFAfH3sRWMLKvzXw0ba8fE6PYXY';
 
   const [mapRegion, setMapRegion] = React.useState(null);
   const [userLocation, setUserLocation] = React.useState(null);

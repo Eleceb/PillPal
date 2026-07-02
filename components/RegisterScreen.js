@@ -12,10 +12,9 @@ import {
 } from 'react-native';
 import { RFValue } from 'react-native-responsive-fontsize'; // To make the UI responsive
 import React, { useState, useEffect } from 'react';
-import { firestore } from '../FirebaseConfig';
-import { collection, doc, setDoc, getDoc } from 'firebase/firestore';
+import { auth, toAuthEmail } from '../FirebaseConfig';
+import { createUserWithEmailAndPassword } from 'firebase/auth';
 import { useGlobalContext } from '../GlobalContext';
-import AsyncStorage from '@react-native-async-storage/async-storage';
 
 const Question = (props) => {
   return (
@@ -57,7 +56,6 @@ const Question = (props) => {
 
 export default function RegisterScreen({ navigation, route }) {
   const {
-    setIsLoggedIn,
     setErrorModalMsg,
     errorModalVisible, setErrorModalVisible
   } = useGlobalContext();
@@ -136,88 +134,59 @@ export default function RegisterScreen({ navigation, route }) {
   ];
 
   const register = async (username, password, confirmPassword) => {
+    setUsernameErrorMsg(null);
+    setPasswordErrorMsg(null);
+    setConfirmPasswordErrorMsg(null);
+
+    let isValid = true;
+
+    if (username === '') {
+      setUsernameErrorMsg('You cannot leave the username empty.');
+      isValid = false;
+    } else if (username.includes(' ')) {
+      setUsernameErrorMsg('You cannot include space in your username.');
+      isValid = false;
+    }
+
+    if (password === '') {
+      setPasswordErrorMsg('You cannot leave the password empty.');
+      isValid = false;
+    } else if (password.includes(' ')) {
+      setPasswordErrorMsg('You cannot include space in your password.');
+      isValid = false;
+    }
+
+    if (password !== '' && confirmPassword === '') {
+      setConfirmPasswordErrorMsg('Please confirm your password.');
+      isValid = false;
+    } else if (password !== '' && password !== confirmPassword) {
+      setConfirmPasswordErrorMsg('Password does not match.');
+      isValid = false;
+    }
+
+    if (!isValid) {
+      return;
+    }
+
     try {
-      const userData = await getDoc(doc(collection(firestore, username), 'Login Infomation'));
-
-      setUsernameErrorMsg(null);
-      setPasswordErrorMsg(null);
-      setConfirmPasswordErrorMsg(null);
-
-      if (
-        !username.includes(' ') &&
-        !password.includes(' ') &&
-        !userData.exists() &&
-        password === confirmPassword &&
-        password !== '' &&
-        confirmPassword !== ''
-      ) {
-        await setDoc(doc(collection(firestore, username), 'Login Infomation'), { username, password });
-        await setDoc(doc(collection(firestore, username), 'Medicines'), {});
-
-        await AsyncStorage.setItem('username', username);
-        await AsyncStorage.setItem('isLoggedIn', JSON.stringify(true));
-
-        setIsLoggedIn(true);
-      }
-      
-      if (username.includes(' ') || password.includes(' ')) {
-        if (username.includes(' ')) {
-          setUsernameErrorMsg('You cannot include space in your username.');
-        }
-        if (password.includes(' ')) {
-          setPasswordErrorMsg('You cannot include space in your password.');
-        }
-      }
-
-      if (userData.exists()) {
-        setUsernameErrorMsg('Username exists. Please try another username.');
-      }
-
-      if (password !== '' && password !== confirmPassword) {
-        setConfirmPasswordErrorMsg('Password does not match.');
-      }
-      
-      if (password === '' || confirmPassword === '') {
-        if (password === '') {
-          setPasswordErrorMsg('You cannot leave the password empty.');
-        }
-        if (password !== '' && confirmPassword === '') {
-          setConfirmPasswordErrorMsg('Please confirm your password.');
-        }
-      }
+      await createUserWithEmailAndPassword(auth, toAuthEmail(username), password);
     } catch (error) {
-      if (error.message === 'Function collection() cannot be called with an empty path.') {
-        setPasswordErrorMsg(null);
-        setConfirmPasswordErrorMsg(null);
-
-        if (password.includes(' ')) {
-          setPasswordErrorMsg('You cannot include space in your password.');
-        }
-
-        if (password !== '' && password !== confirmPassword) {
-          setConfirmPasswordErrorMsg('Password does not match.');
-        }
-
-        if (password === '' || confirmPassword === '') {
-          setUsernameErrorMsg('You cannot leave the username empty.');
-          if (password === '') {
-            setPasswordErrorMsg('You cannot leave the password empty.');
-          }
-          if (password !== '' && confirmPassword === '') {
-            setConfirmPasswordErrorMsg('Please confirm your password.');
-          }
-        } else {
-          setUsernameErrorMsg('You cannot leave the username empty.');
-        }
-      } else {
-        setUsernameErrorMsg(null);
-        setPasswordErrorMsg(null);
-        setConfirmPasswordErrorMsg(null);
-        setErrorModalMsg({
-          'title': 'Error', 
-          'description': error.message
-        });
-        setErrorModalVisible(!errorModalVisible);
+      switch (error.code) {
+        case 'auth/email-already-in-use':
+          setUsernameErrorMsg('Username exists. Please try another username.');
+          break;
+        case 'auth/invalid-email':
+          setUsernameErrorMsg('Username contains invalid characters.');
+          break;
+        case 'auth/weak-password':
+          setPasswordErrorMsg('Password must be at least 6 characters.');
+          break;
+        default:
+          setErrorModalMsg({
+            'title': 'Error',
+            'description': error.message
+          });
+          setErrorModalVisible(!errorModalVisible);
       }
     }
   }

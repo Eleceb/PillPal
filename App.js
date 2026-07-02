@@ -1,4 +1,5 @@
 /* All images in this app are royalty-free images */
+import 'react-native-gesture-handler';
 import { StyleSheet, Platform, Dimensions } from 'react-native';
 import React, { useState } from 'react';
 import { StatusBar } from 'expo-status-bar';

@@ -11,15 +11,13 @@ import {
 } from 'react-native';
 import { RFValue } from 'react-native-responsive-fontsize'; // To make the UI responsive
 import React, { useState } from 'react';
-import { firestore } from '../FirebaseConfig';
-import { collection, doc, getDoc } from 'firebase/firestore';
-import AsyncStorage from '@react-native-async-storage/async-storage';
+import { auth, toAuthEmail } from '../FirebaseConfig';
+import { signInWithEmailAndPassword } from 'firebase/auth';
 import { useGlobalContext } from '../GlobalContext';
 
 export default function LoginScreen({ navigation }) {
   const {
-    usernameText, setUsernameText, 
-    setIsLoggedIn,
+    usernameText, setUsernameText,
     setErrorModalMsg,
     errorModalVisible, setErrorModalVisible
   } = useGlobalContext();
@@ -28,32 +26,34 @@ export default function LoginScreen({ navigation }) {
   const [isLoading, setIsLoading] = useState(false);
 
   const login = async (username, password) => {
-    try {
-      const userData = await getDoc(doc(collection(firestore, username), 'Login Infomation'));
-  
-      if (userData.exists()) {
-        if (userData.data().username === username && userData.data().password === password) {
-          await AsyncStorage.setItem('username', username);
-          await AsyncStorage.setItem('isLoggedIn', JSON.stringify(true));
+    if (username === '') {
+      setErrorMsg('Please enter your username.');
+      return;
+    }
+    if (password === '') {
+      setErrorMsg('Please enter your password.');
+      return;
+    }
 
-          setIsLoggedIn(true);
-        } else if (password === ''){
-          setErrorMsg('Please enter your password.');
-        } else {
-          setErrorMsg('Username and/or password do not match.')
-        }
-      } else {
-        setErrorMsg('Username and/or password do not match.')
-      }
+    try {
+      await signInWithEmailAndPassword(auth, toAuthEmail(username), password);
     } catch (error) {
-      if (error.message === 'Function collection() cannot be called with an empty path.') {
-        setErrorMsg('Please enter your username.');
-      } else {
-        setErrorModalMsg({
-          'title': 'Error', 
-          'description': error.message
-        });
-        setErrorModalVisible(!errorModalVisible);
+      switch (error.code) {
+        case 'auth/invalid-credential':
+        case 'auth/user-not-found':
+        case 'auth/wrong-password':
+        case 'auth/invalid-email':
+          setErrorMsg('Username and/or password do not match.');
+          break;
+        case 'auth/too-many-requests':
+          setErrorMsg('Too many failed attempts. Please try again later.');
+          break;
+        default:
+          setErrorModalMsg({
+            'title': 'Error',
+            'description': error.message
+          });
+          setErrorModalVisible(!errorModalVisible);
       }
     }
   };

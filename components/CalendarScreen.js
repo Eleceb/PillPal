@@ -131,6 +131,7 @@ export default function CalendarScreen({ navigation }) {
     return (
       <Cell 
         {...props}
+        backgroundColor="white"
         contentContainerStyle={styles.cellDetailContainer} 
         cellContentView={
           <View style={styles.detailCellContainer}>
@@ -364,16 +365,19 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
   },
   elementTitleText: {
+    color: 'black',
     fontSize: RFValue(13),
     width: RFValue(50), 
     alignSelf: 'center',
   },
   elementColonText: {
+    color: 'black',
     fontSize: RFValue(13),
     width: RFValue(20), 
     alignSelf: 'center',
   },
   elementDetailText: {
+    color: 'black',
     fontSize: RFValue(13),
     alignSelf: 'center'
   },

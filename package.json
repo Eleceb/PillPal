@@ -4,8 +4,8 @@
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
     "start": "expo start",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
     "web": "expo start --web",
     "test": "jest"
   },
@@ -47,7 +47,10 @@
     "react-native-tableview-simple": "^4.4.0",
     "react-native-uuid": "^2.0.3",
     "react-native-web": "~0.19.10",
-    "react-test-renderer": "^18.2.0"
+    "react-test-renderer": "^18.2.0",
+    "react-native-gesture-handler": "~2.16.1",
+    "react-native-screens": "3.31.1",
+    "react-native-safe-area-context": "4.10.5"
   },
   "devDependencies": {
     "@babel/core": "^7.24.0"

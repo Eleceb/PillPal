@@ -32,8 +32,9 @@ jest.mock('firebase/app', () => ({
 }));
 
 jest.mock('firebase/auth', () => ({
-  initializeAuth: jest.fn(), 
+  initializeAuth: jest.fn(),
   getReactNativePersistence: jest.fn(),
+  createUserWithEmailAndPassword: jest.fn(),
 }));
 
 jest.mock('firebase/firestore', () => ({
