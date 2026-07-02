@@ -56,10 +56,12 @@
   "jest": {
     "projects": [
       {
-        "preset": "jest-expo/ios"
+        "preset": "jest-expo/ios",
+        "globalSetup": "./jest.global-setup.js"
       },
       {
-        "preset": "jest-expo/android"
+        "preset": "jest-expo/android",
+        "globalSetup": "./jest.global-setup.js"
       }
     ]
   },

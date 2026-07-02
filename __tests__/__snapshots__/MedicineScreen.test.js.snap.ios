@@ -122,7 +122,7 @@ exports[`<MedicineScreen /> renders correctly without crashing 1`] = `
                           ]
                         }
                       >
-                        20:00
+                        12:00
                       </Text>
                       <View
                         accessibilityState={
@@ -415,7 +415,7 @@ exports[`<MedicineScreen /> renders correctly without crashing 1`] = `
                           ]
                         }
                       >
-                        21:00
+                        13:00
                       </Text>
                       <View
                         accessibilityState={
@@ -707,7 +707,7 @@ exports[`<MedicineScreen /> renders correctly without crashing 1`] = `
                         ]
                       }
                     >
-                      22:00
+                      14:00
                     </Text>
                     <View
                       accessibilityState={
