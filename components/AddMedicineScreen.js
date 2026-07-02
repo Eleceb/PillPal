@@ -201,9 +201,7 @@ export default function AddMedicineScreen({ navigation, route }) {
 
       const image = await uriToBlob(imageUri);
 
-      await uploadBytes(imageRef, image).then(snapshot => {
-        console.log('Uploaded a blob or file!');
-      });
+      await uploadBytes(imageRef, image);
     } catch (error) {
       setErrorModalMsg({
         'title': 'Error', 
