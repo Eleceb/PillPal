@@ -4,13 +4,14 @@ import { getFirestore } from 'firebase/firestore';
 import { getStorage } from "firebase/storage";
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
+// Config values come from environment variables (see .env.example)
 const firebaseConfig = {
-  apiKey: 'AIzaSyAnKtvE_7xwhmZh0_nXFKEXmPGR7m4tQeg',
-  authDomain: 'mobile-development-final.firebaseapp.com',
-  projectId: 'mobile-development-final',
-  storageBucket: 'mobile-development-final.firebasestorage.app',
-  messagingSenderId: '991905355881',
-  appId: '1:991905355881:web:7c4883dd3800039e49eaf8'
+  apiKey: process.env.EXPO_PUBLIC_FIREBASE_API_KEY,
+  authDomain: process.env.EXPO_PUBLIC_FIREBASE_AUTH_DOMAIN,
+  projectId: process.env.EXPO_PUBLIC_FIREBASE_PROJECT_ID,
+  storageBucket: process.env.EXPO_PUBLIC_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: process.env.EXPO_PUBLIC_FIREBASE_MESSAGING_SENDER_ID,
+  appId: process.env.EXPO_PUBLIC_FIREBASE_APP_ID
 };
 
 const app = initializeApp(firebaseConfig);

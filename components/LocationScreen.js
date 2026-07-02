@@ -22,7 +22,7 @@ export default function LocationScreen() {
     errorModalVisible, setErrorModalVisible
   } = useGlobalContext();
 
-  const apiKey = 'AIzaSyDD9SPXcFAfH3sRWMLKvzXw0ba8fE6PYXY';
+  const apiKey = process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY;
 
   const [mapRegion, setMapRegion] = React.useState(null);
   const [userLocation, setUserLocation] = React.useState(null);
