@@ -6,14 +6,17 @@ to take each medication and shows you where the nearest pharmacy is.
 Built with React Native and Expo (SDK 51) with a Firebase backend, as my final
 project for CM3050 Mobile Development.
 
-> **▶ Demo:** screenshots coming soon. Run it locally with Expo Go
-> (see [Getting started](#getting-started)).
->
-> This repository contains the source code. API keys and Firebase config are
-> read from environment variables (see `.env.example`); you'll need your own
-> Firebase project and Google Maps key to run it.
+<p align="center">
+  <img src="docs/screenshots/home.png" width="200" alt="Home screen: today's medicines with Taken checkboxes">
+  <img src="docs/screenshots/add-medicine.png" width="200" alt="Add Medicine screen: name, time, repeat interval, dates and photo">
+  <img src="docs/screenshots/calendar.png" width="200" alt="Calendar screen: monthly schedule with the selected day's medicines">
+  <img src="docs/screenshots/pharmacy-map.jpg" width="200" alt="Pharmacy map: nearby pharmacies with a suggested route">
+</p>
+<p align="center"><em>Today's doses · adding a medicine · calendar schedule · pharmacy finder</em></p>
 
-<!-- TODO: add screenshot / demo GIF here -->
+> **▶ Try it:** run it locally with Expo Go (see [Getting started](#getting-started)).
+> API keys and Firebase config are read from environment variables (see
+> `.env.example`), so you'll need your own Firebase project and Google Maps key.
 
 ## Motivation
 
